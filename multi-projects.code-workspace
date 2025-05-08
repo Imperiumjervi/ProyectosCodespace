@@ -1,0 +1,14 @@
+{
+  "folders": [
+    { "name": "CodespaceClases", "path": "CodespaceClases" }
+  ],
+  "settings": {
+    "cmake.sourceDirectory": "${workspaceFolder}"
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-vscode.cpptools",
+      "ms-vscode.cmake-tools"
+    ]
+  }
+}
