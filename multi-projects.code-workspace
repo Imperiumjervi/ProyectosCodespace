@@ -1,6 +1,6 @@
 {
   "folders": [
-    { "name": "CodespaceClases", "path": "CodespaceClases" }
+    { "name": "Ejemplo1", "path": "ejemplo1" }
   ],
   "settings": {
     "cmake.sourceDirectory": "${workspaceFolder}"
