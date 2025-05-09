@@ -22,6 +22,19 @@
       "group": "build",
       "problemMatcher": ["$gcc"],
       "dependsOn": "CMake: Configure"
+    },
+    ///Asi se agregan mas
+    {
+      "label": "Build taller",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build", "${workspaceFolder}/build",
+        "--target", "taller"
+      ],
+      "group": "build",
+      "problemMatcher": ["$gcc"],
+      "dependsOn": "CMake: Configure"
     }
   ]
 }
