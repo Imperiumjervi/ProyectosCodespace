@@ -35,6 +35,18 @@
       "group": "build",
       "problemMatcher": ["$gcc"],
       "dependsOn": "CMake: Configure"
+    },
+    {
+      "label": "Build Juegos",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build", "${workspaceFolder}/build",
+        "--target", "juegos"
+      ],
+      "group": "build",
+      "problemMatcher": ["$gcc"],
+      "dependsOn": "CMake: Configure"
     }
   ]
 }

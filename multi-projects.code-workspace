@@ -1,7 +1,8 @@
 {
   "folders": [
     { "name": "Ejemplo1", "path": "ejemplo1"},
-    { "name": "Taller",   "path": "taller"}
+    { "name": "Taller",   "path": "taller"},
+    { "name": "Juegos",   "path": "juegos"}
   ],
   "settings": {
     "cmake.sourceDirectory": "${workspaceFolder}"
