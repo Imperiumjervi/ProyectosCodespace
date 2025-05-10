@@ -6,3 +6,6 @@
 /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller/CMakeFiles/taller.dir
 /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller/CMakeFiles/edit_cache.dir
 /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller/CMakeFiles/rebuild_cache.dir
+/home/jeffer/Documentos/gitHub/CodespaceClases/build/juegos/CMakeFiles/juegos.dir
+/home/jeffer/Documentos/gitHub/CodespaceClases/build/juegos/CMakeFiles/edit_cache.dir
+/home/jeffer/Documentos/gitHub/CodespaceClases/build/juegos/CMakeFiles/rebuild_cache.dir

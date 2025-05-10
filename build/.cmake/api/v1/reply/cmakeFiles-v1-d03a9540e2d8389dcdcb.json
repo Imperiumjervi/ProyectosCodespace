@@ -196,6 +196,9 @@
 		},
 		{
 			"path" : "taller/CMakeLists.txt"
+		},
+		{
+			"path" : "juegos/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
