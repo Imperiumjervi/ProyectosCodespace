@@ -34,13 +34,13 @@ void MenuPrincipal::ejecutarJuego(int opcion) {
         case 1: {
             // Código para ejecutar el juego Ahorcado
             Ahorcado ahorcado;
-            ahorcado.jugar();
+            ahorcado.iniciar();
             break;
         }
         case 2: {
             // Código para ejecutar el juego Parejas
             Parejas parejas;
-            parejas.jugar();
+            parejas.iniciar();
             break;
         }
         default:

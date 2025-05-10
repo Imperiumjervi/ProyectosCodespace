@@ -9,6 +9,7 @@ public:
   int columnas;
   int parejasEncontradas;
 
+  Parejas();
   Parejas(std::string jugador, int filas, int columnas);
   void iniciar() override;
   void cargarSimbolosDesdeArchivo(std::string rutaArchivo);

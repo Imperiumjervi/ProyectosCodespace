@@ -1,6 +1,8 @@
 #include "../include/Parejas.hpp"
 #include <string>
 
+Parejas::Parejas() : Juego(""), filas(0), columnas(0), parejasEncontradas(0) {}
+
 Parejas::Parejas(std::string jugador, int filas, int columnas)
     : Juego(jugador), filas(filas), columnas(columnas) {}
 
