@@ -1,6 +1,6 @@
 #pragma once
-#include <map>
 #include <string>
+#include <utility>
 #include <vector>
 
 class GestorArchivo {
@@ -10,5 +10,5 @@ public:
   GestorArchivo(std::string ruta);
   void guardarPartida(std::string datos);
   std::vector<std::string> cargarPalabras();
-  std::map<char, char> cargarParejas();
+  std::vector<std::pair<char, char>> cargarParejas();
 };
