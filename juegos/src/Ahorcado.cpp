@@ -1,8 +1,9 @@
 #include "../include/Ahorcado.hpp"
 #include <string>
 
-Ahorcado::Ahorcado(std::string jugador, bool esCPU,
-                   std::string jugadorGenerador)
+Ahorcado::Ahorcado() : Juego(""), esCPU(false), jugadorGenerador("") {}
+
+Ahorcado::Ahorcado(std::string jugador, bool esCPU,std::string jugadorGenerador)
     : Juego(jugador), esCPU(esCPU), jugadorGenerador(jugadorGenerador) {}
 
 void Ahorcado::iniciar() {}
