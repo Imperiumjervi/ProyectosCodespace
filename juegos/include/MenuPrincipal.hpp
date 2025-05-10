@@ -4,11 +4,12 @@
 class MenuPrincipal {
 public:
   MenuPrincipal();
-  void mostrarMenu();
-  void ejecutarJuego(int opcion);
+  static void mostrarMenu();
+
+  static void ejecutarJuego(int opcion);
 
   // Crea Juego
 
   // Puntero Gestor de archivo
-  GestorArchivo *gestor;
+  GestorArchivo *gestor{};
 };

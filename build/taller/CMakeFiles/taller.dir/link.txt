@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/taller.dir/link.d CMakeFiles/taller.dir/main.cpp.o CMakeFiles/taller.dir/src/clasepordefecto.cpp.o -o ../bin/taller

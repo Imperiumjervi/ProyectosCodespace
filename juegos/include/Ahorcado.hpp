@@ -6,13 +6,14 @@ class Ahorcado : public Juego {
 public:
   std::string palabraOculta;
   std::string palabraAdivinada;
-  int intentosRestantes;
+  int intentosRestantes{};
   bool esCPU;
   std::string jugadorGenerador;
 
   Ahorcado(std::string jugador, bool esCPU, std::string jugadorGenerador);
   void iniciar() override;
-  void setPalabrasDesdeArchivo(std::string rutaArchivo);
-  void generarPalabraAleatoria();
-  bool adivinarLetra(char letra);
+
+  static void setPalabrasDesdeArchivo(const std::string& rutaArchivo);
+  static void generarPalabraAleatoria();
+  static bool adivinarLetra(char letra);
 };

@@ -7,12 +7,12 @@ public:
   std::string nombreJuego;
   std::string jugador;
   std::string fecha;
-  int puntuacion;
+  int puntuacion{};
 
-  Juego(std::string jugador);
+  explicit Juego(std::string jugador);
   virtual ~Juego();
 
   virtual void iniciar() = 0;
-  virtual void guardarResultado(std::string resultado);
-  std::string obtenerFechaActual();
+  virtual void guardarResultado(const std::string &resultado);
+  static std::string obtenerFechaActual();
 };

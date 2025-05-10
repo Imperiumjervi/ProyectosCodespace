@@ -1,6 +1,6 @@
 #include "../include/MenuPrincipal.hpp"
 
-MenuPrincipal::MenuPrincipal() {}
+MenuPrincipal::MenuPrincipal() = default;
 
 void MenuPrincipal::mostrarMenu() { std::cout << "Bienvenido"; }
 
