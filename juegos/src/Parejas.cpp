@@ -2,6 +2,8 @@
 #include <string>
 #include <utility>
 
+Parejas::Parejas() : Juego(""), filas(0), columnas(0), parejasEncontradas(0) {}
+
 Parejas::Parejas(std::string jugador, int filas, int columnas)
     : Juego(std::move(jugador)), filas(filas), columnas(columnas) {}
 

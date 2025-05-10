@@ -2,8 +2,9 @@
 #include <string>
 #include <utility>
 
-Ahorcado::Ahorcado(std::string jugador, const bool esCPU,
-                   std::string jugadorGenerador)
+Ahorcado::Ahorcado() : Juego(""), esCPU(false), jugadorGenerador("") {}
+
+Ahorcado::Ahorcado(std::string jugador, const bool esCPU, std::string jugadorGenerador)
     : Juego(std::move(jugador)), esCPU(esCPU), jugadorGenerador(std::move(jugadorGenerador)) {}
 
 void Ahorcado::iniciar() {}
