@@ -795,7 +795,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "4"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1219,7 +1219,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jeffer/Documentos/gitHub/CodespaceClases/build/taller"
+			"value" : "/home/jeffer/Documentos/gitHub/CodespaceClases/build/juegos"
 		},
 		{
 			"name" : "ejemplo1_IS_TOP_LEVEL",
@@ -1243,7 +1243,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jeffer/Documentos/gitHub/CodespaceClases/taller"
+			"value" : "/home/jeffer/Documentos/gitHub/CodespaceClases/juegos"
 		}
 	],
 	"kind" : "cache",

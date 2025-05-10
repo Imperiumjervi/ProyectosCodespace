@@ -9,7 +9,8 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					],
 					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -46,6 +47,21 @@
 					"source" : "taller",
 					"targetIndexes" : 
 					[
+						2
+					]
+				},
+				{
+					"build" : "juegos",
+					"jsonFile" : "directory-juegos-1890d893be1b159fd516.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "juegos",
+					"targetIndexes" : 
+					[
 						1
 					]
 				}
@@ -57,7 +73,8 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					],
 					"directoryIndexes" : 
 					[
@@ -86,6 +103,18 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "ejemplo1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
 						1
 					]
 				}
@@ -98,6 +127,13 @@
 					"jsonFile" : "target-ejemplo1-3e637415d3d2ddefa0a7.json",
 					"name" : "ejemplo1",
 					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "juegos::@9200a33c0de6485a533b",
+					"jsonFile" : "target-juegos-aa711428f06f2aecd3ff.json",
+					"name" : "juegos",
+					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 2,
