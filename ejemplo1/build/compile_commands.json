@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1/build",
+  "command": "/usr/bin/clang++ -I/home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1/include -g -o CMakeFiles/ejemplo1.dir/main.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1/main.cpp",
+  "file": "/home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1/main.cpp",
+  "output": "CMakeFiles/ejemplo1.dir/main.cpp.o"
+},
+{
+  "directory": "/home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1/build",
+  "command": "/usr/bin/clang++ -I/home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1/include -g -o CMakeFiles/ejemplo1.dir/src/clasepordefecto.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1/src/clasepordefecto.cpp",
+  "file": "/home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1/src/clasepordefecto.cpp",
+  "output": "CMakeFiles/ejemplo1.dir/src/clasepordefecto.cpp.o"
+}
+]
