@@ -1,4 +1,4 @@
-#include "../include/Juego.hpp"
+#include "Juego.hpp"
 #include <string>
 #include <utility>
 

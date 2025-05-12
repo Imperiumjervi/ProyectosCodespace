@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "Ahorcado.hpp"
 #include "GestorArchivo.hpp"
 #include "Juego.hpp"
@@ -10,3 +11,15 @@ int main() {
     menu.mostrarMenu();
     return 0;
 }
+=======
+#include "MenuPrincipal.hpp"
+#include <iostream>
+
+int main() {
+  MenuPrincipal menucito;
+
+  menucito.mostrarMenu();
+
+  return 0;
+}
+>>>>>>> CambiosJeffer

@@ -1,4 +1,4 @@
-#include "../include/Parejas.hpp"
+#include "Parejas.hpp"
 #include <string>
 #include <utility>
 
