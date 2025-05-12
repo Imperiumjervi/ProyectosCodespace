@@ -1,6 +1,10 @@
+#include "MenuPrincipal.hpp"
 #include <iostream>
 
 int main() {
-  std::cout << "Hola mundo" << std::endl;
+  MenuPrincipal menucito;
+
+  menucito.mostrarMenu();
+
   return 0;
 }

@@ -1,4 +1,4 @@
-#include "../include/GestorArchivo.hpp"
+#include "GestorArchivo.hpp"
 #include <iostream>
 #include <string>
 #include <vector>
