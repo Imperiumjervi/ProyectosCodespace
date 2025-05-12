@@ -117,32 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ejemplo1
-
-# Build rule for target.
-ejemplo1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ejemplo1
-.PHONY : ejemplo1
-
-# fast build rule for target.
-ejemplo1/fast:
-	$(MAKE) $(MAKESILENT) -f ejemplo1/CMakeFiles/ejemplo1.dir/build.make ejemplo1/CMakeFiles/ejemplo1.dir/build
-.PHONY : ejemplo1/fast
-
-#=============================================================================
-# Target rules for targets named taller
-
-# Build rule for target.
-taller: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 taller
-.PHONY : taller
-
-# fast build rule for target.
-taller/fast:
-	$(MAKE) $(MAKESILENT) -f taller/CMakeFiles/taller.dir/build.make taller/CMakeFiles/taller.dir/build
-.PHONY : taller/fast
-
-#=============================================================================
 # Target rules for targets named juegos
 
 # Build rule for target.
@@ -163,9 +137,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ejemplo1"
 	@echo "... juegos"
-	@echo "... taller"
 .PHONY : help
 
 

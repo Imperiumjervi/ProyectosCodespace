@@ -11,9 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.0.1/CMakeCCompiler.cmake"
   "CMakeFiles/4.0.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.1/CMakeSystem.cmake"
-  "/home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1/CMakeLists.txt"
   "/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/CMakeLists.txt"
-  "/home/jeffer/Documentos/gitHub/CodespaceClases/taller/CMakeLists.txt"
   "/usr/share/cmake/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
@@ -42,7 +40,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake"
   "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake"
   "/usr/share/cmake/Modules/CMakeTestCompilerCommon.cmake"
-  "/usr/share/cmake/Modules/CMakeUnixFindMake.cmake"
   "/usr/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake"
   "/usr/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
   "/usr/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
@@ -140,14 +137,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/4.0.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "ejemplo1/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "taller/CMakeFiles/CMakeDirectoryInformation.cmake"
   "juegos/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "ejemplo1/CMakeFiles/ejemplo1.dir/DependInfo.cmake"
-  "taller/CMakeFiles/taller.dir/DependInfo.cmake"
   "juegos/CMakeFiles/juegos.dir/DependInfo.cmake"
   )
