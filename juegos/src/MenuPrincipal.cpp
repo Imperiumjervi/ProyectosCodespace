@@ -53,4 +53,11 @@ void MenuPrincipal::menuAhorcado() {
   }
 }
 
+void MenuPrincipal::menuParejas() {
+  std::cout << "Parejas" << std::endl;
+  std::cout << "1. Jugar" << std::endl;
+  std::cout << "2. Ver puntuaciones" << std::endl;
+  std::cout << "3. Salir" << std::endl;
+}
+
 void MenuPrincipal::ejecutarJuego(int opcion) {}
