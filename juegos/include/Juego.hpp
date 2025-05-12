@@ -9,10 +9,10 @@ public:
   std::string fecha;
   int puntuacion{};
 
-  explicit Juego(std::string jugador);
+  Juego(std::string jugador);
   virtual ~Juego();
 
   virtual void iniciar() = 0;
   virtual void guardarResultado(const std::string &resultado);
-  static std::string obtenerFechaActual();
+  std::string obtenerFechaActual();
 };

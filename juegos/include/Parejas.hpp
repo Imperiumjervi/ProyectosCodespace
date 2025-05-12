@@ -13,7 +13,7 @@ public:
   Parejas(std::string jugador, int filas, int columnas);
   void iniciar() override;
 
-  static void cargarSimbolosDesdeArchivo(const std::string& rutaArchivo);
+  void cargarSimbolosDesdeArchivo(const std::string &rutaArchivo);
   void mezclarTablero();
   bool descubrirCasilla(int x1, int y1, int y2);
 };
