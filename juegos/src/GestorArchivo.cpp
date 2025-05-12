@@ -6,12 +6,14 @@
 
 GestorArchivo::GestorArchivo(std::string rutaArchivo)
     : rutaArchivo(std::move(rutaArchivo)) {
-  // Verifica si la ruta del archivo es válida
-  // Verifica si el archivo existe, si no, lo crea
-  if (std::ifstream archivoLectura(this->rutaArchivo); !archivoLectura.good()) {
-    if (std::ofstream archivoNuevo(this->rutaArchivo); !archivoNuevo) {
-      std::cerr << "No se pudo crear el archivo: " << this->rutaArchivo
-                << std::endl;
+  // Si el archivo no existe, lo crea
+  std::ifstream archivoLectura(rutaArchivo);
+  if (!archivoLectura.good()) {
+    std::ofstream archivoNuevo(rutaArchivo);
+    if (!archivoNuevo) {
+      std::cerr << "No se pudo crear el archivo: " << rutaArchivo << std::endl;
+    } else {
+      std::cout << "Archivo creado exitosamente: " << rutaArchivo << std::endl;
     }
   }
 }
@@ -27,8 +29,45 @@ void GestorArchivo::guardarPartida(std::string &datos) {
   }
 }
 
-void GestorArchivo::cargarPartida() {}
+void GestorArchivo::cargarPartida() {
+  std::ifstream archivo(rutaArchivo);
+  std::string linea;
 
-void GestorArchivo::eliminarPartida() {}
+  if (!archivo.is_open()) {
+    std::cerr << "No se pudo abrir el archivo: " << rutaArchivo << std::endl;
+    return;
+  }
 
-void GestorArchivo::listarPartidas() {}
+  std::cout << "Contenido del archivo: " << std::endl;
+  while (std::getline(archivo, linea)) {
+    std::cout << linea << std::endl;
+  }
+  archivo.close();
+}
+
+void GestorArchivo::eliminarPartida() {
+  std::ofstream archivo(rutaArchivo, std::ios::trunc);
+  if (archivo.is_open()) {
+    archivo.close();
+    std::cout << "Partidas eliminadas exitosamente." << std::endl;
+  } else {
+    std::cerr << "No se pudo abrir el archivo para eliminar las partidas: "
+              << rutaArchivo << std::endl;
+  }
+}
+
+void GestorArchivo::listarPartidas() {
+  std::ifstream archivo(rutaArchivo);
+  std::string linea;
+
+  if (!archivo.is_open()) {
+    std::cerr << "No se pudo abrir el archivo: " << rutaArchivo << std::endl;
+    return;
+  }
+
+  std::cout << "== Partidas registradas ==" << std::endl;
+  while (std::getline(archivo, linea)) {
+    std::cout << linea << std::endl;
+  }
+  archivo.close();
+}
