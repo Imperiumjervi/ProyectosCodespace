@@ -64,7 +64,9 @@ void MenuPrincipal::menuParejas() {
   std::cout << "3. Salir" << std::endl;
 }
 
-void MenuPrincipal::mostrarMenu() {
+// Menu princiapal hecho por navarrete
+
+/*void MenuPrincipal::mostrarMenu() {
   std::cout << "Bienvenido";
   std::cout << "\nSeleccione el juego que desea jugar:\n";
   std::cout << "1. Ahorcado\n";
@@ -103,4 +105,4 @@ void MenuPrincipal::ejecutarJuego(int opcion) {
     std::cout << "Opción inválida";
     break;
   }
-}
+}*/
