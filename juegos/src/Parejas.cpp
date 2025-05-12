@@ -1,4 +1,4 @@
-#include "../include/Parejas.hpp"
+#include "Parejas.hpp"
 #include <string>
 
 Parejas::Parejas(std::string jugador, int filas, int columnas)

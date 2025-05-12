@@ -1,4 +1,4 @@
-#include "../include/Juego.hpp"
+#include "Juego.hpp"
 #include <string>
 
 Juego::Juego(std::string jugador) : jugador(jugador) {}

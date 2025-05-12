@@ -1,4 +1,4 @@
-#include "../include/MenuPrincipal.hpp"
+#include "MenuPrincipal.hpp"
 #include <iostream>
 
 MenuPrincipal::MenuPrincipal() {}

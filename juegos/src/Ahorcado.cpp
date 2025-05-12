@@ -1,4 +1,4 @@
-#include "../include/Ahorcado.hpp"
+#include "Ahorcado.hpp"
 #include <iostream>
 #include <random>
 #include <string>
