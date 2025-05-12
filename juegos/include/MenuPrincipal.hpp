@@ -5,6 +5,8 @@ class MenuPrincipal {
 public:
   MenuPrincipal();
   void mostrarMenu();
+  void menuAhorcado();
+  void menuParejas();
   void ejecutarJuego(int opcion);
 
   // Crea Juego
