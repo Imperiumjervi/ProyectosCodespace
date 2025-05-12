@@ -3,7 +3,12 @@
 
 MenuPrincipal::MenuPrincipal() {}
 
-void MenuPrincipal::mostrarMenu() { std::cout << "Bienvenido"; }
+void MenuPrincipal::mostrarMenu() {
+  std::cout << "Bienvenido, elija una opcion:" << std::endl;
+  std::cout << "1. Ahorcado" << std::endl;
+  std::cout << "2. Parejas" << std::endl;
+  std::cout << "3. Salir" << std::endl;
+}
 
 void MenuPrincipal::menuAhorcado() {
   int opcion;
