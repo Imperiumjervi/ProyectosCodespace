@@ -10,10 +10,11 @@ public:
   int parejasEncontradas{};
 
   Parejas();
-  Parejas(std::string jugador, int filas, int columnas);
+  Parejas(std::string jugador, int puntuacion, std::string fecha, int filas,
+          int columnas);
   void iniciar() override;
 
   void cargarSimbolosDesdeArchivo(const std::string &rutaArchivo);
   void mezclarTablero();
-  bool descubrirCasilla(int x1, int y1, int y2);
+  bool descubrirCasilla(int x1, int y1, int x2);
 };
