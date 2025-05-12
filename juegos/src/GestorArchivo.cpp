@@ -1,4 +1,5 @@
 #include "GestorArchivo.hpp"
+#include <fstream>
 #include <iostream>
 #include <string>
 #include <utility>
@@ -15,7 +16,16 @@ GestorArchivo::GestorArchivo(std::string rutaArchivo)
   }
 }
 
-void GestorArchivo::guardarPartida(const std::string &datos) {}
+void GestorArchivo::guardarPartida(std::string &datos) {
+  std::ofstream archivo(this->rutaArchivo, std::ios::app);
+  if (archivo.is_open()) {
+    archivo << datos << std::endl;
+    archivo.close();
+  } else {
+    std::cerr << "No se pudo abrir el archivo para guardar la partida: "
+              << this->rutaArchivo << std::endl;
+  }
+}
 
 void GestorArchivo::cargarPartida() {}
 

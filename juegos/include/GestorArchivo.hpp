@@ -9,7 +9,7 @@ class GestorArchivo {
 public:
   std::string rutaArchivo;
   GestorArchivo(std::string rutaArchivo);
-  void guardarPartida(const std::string &datos);
+  void guardarPartida(std::string &datos);
   void cargarPartida();
   void eliminarPartida();
   void listarPartidas();

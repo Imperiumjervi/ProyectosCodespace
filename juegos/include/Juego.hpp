@@ -8,12 +8,12 @@ public:
   std::string nombreJuego;
   std::string jugador;
   std::string fecha;
-  std::vector<int> puntuacion;
+  int puntuacion;
 
-  Juego(std::string jugador);
+  Juego(std::string jugador, int puntuacion, std::string fecha);
   virtual ~Juego();
 
   virtual void iniciar() = 0;
-  virtual void guardarResultado(const std::string &resultado);
+  virtual void guardarResultado(std::string resultado);
   std::string obtenerFechaActual();
 };
