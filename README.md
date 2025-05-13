@@ -8,5 +8,4 @@ Aqui trabajare en las clases de mateo
 
 ## Recomendaciones de mateo
 - Hacer el ahorcado dibujado
-- Poder tener diferentes dificultades para el Concentrese
-
+- Poder tener diferentes dificultades para el Concentrese (ser dinamico)
