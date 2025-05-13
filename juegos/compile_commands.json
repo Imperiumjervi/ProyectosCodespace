@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/jeffer/Documentos/gitHub/CodespaceClases/build/ejemplo1",
+  "command": "/usr/bin/c++  -I/home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1/include  -o CMakeFiles/ejemplo1.dir/main.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1/main.cpp",
+  "file": "/home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1/main.cpp",
+  "output": "ejemplo1/CMakeFiles/ejemplo1.dir/main.cpp.o"
+},
+{
+  "directory": "/home/jeffer/Documentos/gitHub/CodespaceClases/build/ejemplo1",
+  "command": "/usr/bin/c++  -I/home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1/include  -o CMakeFiles/ejemplo1.dir/src/clasepordefecto.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1/src/clasepordefecto.cpp",
+  "file": "/home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1/src/clasepordefecto.cpp",
+  "output": "ejemplo1/CMakeFiles/ejemplo1.dir/src/clasepordefecto.cpp.o"
+},
+{
+  "directory": "/home/jeffer/Documentos/gitHub/CodespaceClases/build/taller",
+  "command": "/usr/bin/c++  -I/home/jeffer/Documentos/gitHub/CodespaceClases/taller/include  -o CMakeFiles/taller.dir/main.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/taller/main.cpp",
+  "file": "/home/jeffer/Documentos/gitHub/CodespaceClases/taller/main.cpp",
+  "output": "taller/CMakeFiles/taller.dir/main.cpp.o"
+},
+{
+  "directory": "/home/jeffer/Documentos/gitHub/CodespaceClases/build/taller",
+  "command": "/usr/bin/c++  -I/home/jeffer/Documentos/gitHub/CodespaceClases/taller/include  -o CMakeFiles/taller.dir/src/clasepordefecto.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/taller/src/clasepordefecto.cpp",
+  "file": "/home/jeffer/Documentos/gitHub/CodespaceClases/taller/src/clasepordefecto.cpp",
+  "output": "taller/CMakeFiles/taller.dir/src/clasepordefecto.cpp.o"
+},
+{
+  "directory": "/home/jeffer/Documentos/gitHub/CodespaceClases/build/juegos",
+  "command": "/usr/bin/c++  -I/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/include  -o CMakeFiles/juegos.dir/main.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/juegos/main.cpp",
+  "file": "/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/main.cpp",
+  "output": "juegos/CMakeFiles/juegos.dir/main.cpp.o"
+},
+{
+  "directory": "/home/jeffer/Documentos/gitHub/CodespaceClases/build/juegos",
+  "command": "/usr/bin/c++  -I/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/include  -o CMakeFiles/juegos.dir/src/Ahorcado.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/juegos/src/Ahorcado.cpp",
+  "file": "/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/src/Ahorcado.cpp",
+  "output": "juegos/CMakeFiles/juegos.dir/src/Ahorcado.cpp.o"
+},
+{
+  "directory": "/home/jeffer/Documentos/gitHub/CodespaceClases/build/juegos",
+  "command": "/usr/bin/c++  -I/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/include  -o CMakeFiles/juegos.dir/src/GestorArchivo.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/juegos/src/GestorArchivo.cpp",
+  "file": "/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/src/GestorArchivo.cpp",
+  "output": "juegos/CMakeFiles/juegos.dir/src/GestorArchivo.cpp.o"
+},
+{
+  "directory": "/home/jeffer/Documentos/gitHub/CodespaceClases/build/juegos",
+  "command": "/usr/bin/c++  -I/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/include  -o CMakeFiles/juegos.dir/src/Juego.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/juegos/src/Juego.cpp",
+  "file": "/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/src/Juego.cpp",
+  "output": "juegos/CMakeFiles/juegos.dir/src/Juego.cpp.o"
+},
+{
+  "directory": "/home/jeffer/Documentos/gitHub/CodespaceClases/build/juegos",
+  "command": "/usr/bin/c++  -I/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/include  -o CMakeFiles/juegos.dir/src/MenuPrincipal.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/juegos/src/MenuPrincipal.cpp",
+  "file": "/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/src/MenuPrincipal.cpp",
+  "output": "juegos/CMakeFiles/juegos.dir/src/MenuPrincipal.cpp.o"
+},
+{
+  "directory": "/home/jeffer/Documentos/gitHub/CodespaceClases/build/juegos",
+  "command": "/usr/bin/c++  -I/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/include  -o CMakeFiles/juegos.dir/src/Parejas.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/juegos/src/Parejas.cpp",
+  "file": "/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/src/Parejas.cpp",
+  "output": "juegos/CMakeFiles/juegos.dir/src/Parejas.cpp.o"
+}
+]
