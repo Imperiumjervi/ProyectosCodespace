@@ -1,6 +1,7 @@
-#include <iostream>
+#include "MenuPrincipal.hpp"
 
 int main() {
-  std::cout << "Hola mundo" << std::endl;
+  MenuPrincipal menu;
+  menu.mostrarMenu();
   return 0;
 }

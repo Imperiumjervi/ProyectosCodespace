@@ -1,4 +1,5 @@
 #pragma once
+#include <fstream>
 #include <iostream>
 #include <string>
 #include <utility>
@@ -7,9 +8,9 @@
 class GestorArchivo {
 public:
   std::string rutaArchivo;
-
-  GestorArchivo(std::string ruta);
-  void guardarPartida(std::string datos);
-  std::vector<std::string> cargarPalabras();
-  std::vector<std::pair<char, char>> cargarParejas();
+  GestorArchivo(std::string rutaArchivo);
+  void guardarPartida(std::string &datos);
+  void cargarPartida();
+  void eliminarPartida();
+  void listarPartidas();
 };
