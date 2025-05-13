@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/jeffer/Documentos/gitHub/CodespaceClases/build/cmake_install.cmake",
-		"/home/jeffer/Documentos/gitHub/CodespaceClases/build/juegos/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
