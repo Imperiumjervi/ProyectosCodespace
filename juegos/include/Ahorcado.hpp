@@ -1,7 +1,6 @@
 #pragma once
 #include "Juego.hpp"
 #include <string>
-#include <vector>
 
 class Ahorcado : public Juego {
 public:

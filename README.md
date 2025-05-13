@@ -9,3 +9,9 @@ Aqui trabajare en las clases de mateo
 ## Recomendaciones de mateo
 - Hacer el ahorcado dibujado
 - Poder tener diferentes dificultades para el Concentrese (ser dinamico)
+- En ambos juegos se tiene que limpiar la pantalla
+- En parejas, se recomienda que las casillas se muestren una vez
+
+
+## Pistas de mateo
+Cada que falle, habra una funcion que se encargue de dibujar el ahorcado
