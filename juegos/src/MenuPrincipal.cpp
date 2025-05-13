@@ -4,6 +4,8 @@
 #include <iostream>
 
 MenuPrincipal::MenuPrincipal() {
+  // Aqui se aplica el puntero para que se guarden los resultados de las
+  // partidas
   gestor = new GestorArchivo("resultados_generales.txt");
 }
 

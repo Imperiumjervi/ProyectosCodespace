@@ -44,6 +44,8 @@ void Parejas::iniciar() {
       descubiertas[x1][y1] = true;
       descubiertas[x2][y2] = true;
     }
+
+    system("clear");
   }
 
   std::cout << "Felicidades, encontraste todas las parejas!" << std::endl;
