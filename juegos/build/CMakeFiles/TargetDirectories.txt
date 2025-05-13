@@ -1,3 +1,0 @@
-/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/build/CMakeFiles/juegos.dir
-/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/build/CMakeFiles/edit_cache.dir
-/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/build/CMakeFiles/rebuild_cache.dir
