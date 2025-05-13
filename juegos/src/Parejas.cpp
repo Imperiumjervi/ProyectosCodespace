@@ -17,9 +17,15 @@ void Parejas::iniciar() {
   int totalParejas = (filas * columnas) / 2;
 
   while (parejasEncontradas < totalParejas) {
-    int x1, y1, x2, y2;
-    std::cout << "Ingresa las Coordenadas de dos casillas (x1, y1, x2, y2): ";
-    std::cin >> x1 >> y1 >> x2 >> y2;
+    mostrarTablero(descubiertas);
+    int pos1, pos2;
+    std::cout << "Ingresa las Coordenadas de dos casillas (pos1 pos2): ";
+    std::cin >> pos1 >> pos2;
+
+    int x1 = pos1 / columnas;
+    int y1 = pos1 % columnas;
+    int x2 = pos2 / columnas;
+    int y2 = pos2 % columnas;
 
     if (x1 == x2 && y1 == y2) {
       std::cout << "No puedes elegir la misma casilla dos veces" << std::endl;
@@ -34,18 +40,34 @@ void Parejas::iniciar() {
     std::cout << "primera casilla: " << tablero[x1][y1] << std::endl;
     std::cout << "segunda casilla: " << tablero[x2][y2] << std::endl;
 
-    if (tablero[x1][y1] == tablero[x2][y2]) {
-      std::cout << "Pareja encontrada!" << std::endl;
-      parejasEncontradas++;
+    if (descubrirCasilla(pos1, pos2)) {
       descubiertas[x1][y1] = true;
       descubiertas[x2][y2] = true;
-    } else {
-      std::cout << "No es una pareja" << std::endl;
     }
   }
 
   std::cout << "Felicidades, encontraste todas las parejas!" << std::endl;
   guardarResultado("G");
+}
+
+void Parejas::mostrarTablero(const bool descubiertas[4][4]) {
+  std::cout << "   ";
+  for (int j = 0; j < columnas; ++j) {
+    std::cout << j << " ";
+  }
+  std::cout << "\n";
+
+  for (int i = 0; i < filas; ++i) {
+    std::cout << i << ": ";
+    for (int j = 0; j < columnas; ++j) {
+      if (descubiertas[i][j]) {
+        std::cout << tablero[i][j] << " ";
+      } else {
+        std::cout << "* ";
+      }
+    }
+    std::cout << "\n";
+  }
 }
 
 void Parejas::cargarSimbolosDesdeArchivo(const std::string &rutaArchivo) {
@@ -87,22 +109,21 @@ void Parejas::cargarSimbolosDesdeArchivo(const std::string &rutaArchivo) {
   }
 }
 
-bool Parejas::descubrirCasilla(int x1, int y1, int x2) {
-  if (x1 < 0 || x1 >= filas || y1 < 0 || y1 >= columnas || x2 < 0 ||
-      x2 >= filas) {
-    std::cerr << "Coordenadas fuera de rango" << std::endl;
+bool Parejas::descubrirCasilla(int pos1, int pos2) {
+  int x1 = pos1 / columnas;
+  int y1 = pos1 % columnas;
+  int x2 = pos2 / columnas;
+  int y2 = pos2 % columnas;
+
+  if (x1 == x2 && y1 == y2) {
+    std::cout << "No puedes elegir la misma casilla dos veces" << std::endl;
     return false;
   }
 
-  std::cout << "Primera casilla: " << tablero[x1][y1] << std::endl;
-  std::cout << "Segunda casilla: " << tablero[x2][y1] << std::endl;
-
-  if (tablero[x1][y1] == tablero[x2][y1]) {
+  if (tablero[x1][y1] == tablero[x2][y2]) {
     std::cout << "Pareja encontrada!" << std::endl;
     parejasEncontradas++;
     return true;
-  } else {
-    std::cout << "No es una pareja" << std::endl;
-    return false;
   }
+  return false;
 }

@@ -15,6 +15,6 @@ public:
   void iniciar() override;
 
   void cargarSimbolosDesdeArchivo(const std::string &rutaArchivo);
-  void mezclarTablero();
-  bool descubrirCasilla(int x1, int y1, int x2);
+  void mostrarTablero(const bool descubiertas[4][4]);
+  bool descubrirCasilla(int pos1, int pos2);
 };
