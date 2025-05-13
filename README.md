@@ -6,3 +6,7 @@ Aqui trabajare en las clases de mateo
 3. Falta que en ambos juegos se acumulen los puntos
 4. Faltan mas cosas recomendadas por mateo
 
+## Recomendaciones de mateo
+- Hacer el ahorcado dibujado
+- Poder tener diferentes dificultades para el Concentrese
+
