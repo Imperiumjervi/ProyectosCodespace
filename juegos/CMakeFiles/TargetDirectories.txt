@@ -1,5 +1,0 @@
-/home/codespace/ProyectosCodespace/ProyectosCodespace/juegos/CMakeFiles/rebuild_cache.dir
-/home/codespace/ProyectosCodespace/ProyectosCodespace/juegos/CMakeFiles/edit_cache.dir
-/home/codespace/ProyectosCodespace/ProyectosCodespace/juegos/juegos/CMakeFiles/rebuild_cache.dir
-/home/codespace/ProyectosCodespace/ProyectosCodespace/juegos/juegos/CMakeFiles/edit_cache.dir
-/home/codespace/ProyectosCodespace/ProyectosCodespace/juegos/juegos/CMakeFiles/juegos.dir
