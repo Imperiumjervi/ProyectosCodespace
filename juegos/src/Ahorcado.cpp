@@ -10,7 +10,7 @@ Ahorcado::Ahorcado(std::string jugador, int puntuacion, std::string fecha,
                    bool esCPU, std::string jugadorGenerador)
     : Juego(jugador, puntuacion, fecha), esCPU(esCPU),
       jugadorGenerador(std::move(jugadorGenerador)) {
-  intentosRestantes = 6;
+  intentosRestantes = 7;
 }
 
 void Ahorcado::iniciar() {
