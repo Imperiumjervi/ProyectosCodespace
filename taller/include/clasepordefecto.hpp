@@ -1,7 +1,11 @@
 #pragma once
 #include <iostream>
 
-class ClasePorDefecto {
+class Cuenta {
+private:
+  double saldo;
+  std::string numero;
 public:
-  void saludar();
+  Cuenta();
+  Cuenta(double saldo, std::string numero);   
 };
