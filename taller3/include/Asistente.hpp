@@ -2,7 +2,7 @@
 #include "Material.hpp"
 #include "Persona.hpp"
 #include <string>
-class Asistente {
+class Asistente : public Persona {
 public:
   std::string idEmpleado;
 
