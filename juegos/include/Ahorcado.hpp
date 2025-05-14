@@ -11,6 +11,7 @@ public:
   bool esCPU;
   std::string jugadorGenerador;
 
+  Ahorcado();
   Ahorcado(std::string jugador, bool esCPU, std::string jugadorGenerador);
   void iniciar() override;
 

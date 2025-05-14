@@ -6,13 +6,13 @@
 #include <utility>
 #include <vector>
 
-Ahorcado::Ahorcado(std::string jugador, bool esCPU,
-                   std::string jugadorGenerador)
-    : Juego(jugador), esCPU(esCPU), jugadorGenerador(jugadorGenerador) {}
+Ahorcado::Ahorcado(std::string jugador, bool esCPU, std::string jugadorGenerador) 
+    : Juego(jugador, 0, ""), esCPU(esCPU), jugadorGenerador(jugadorGenerador) {
+}
 
 void Ahorcado::iniciar() {
   generarPalabraAleatoria();
-  palabraAdivinada = std::string(palabraOculta.length(), '_');
+  palabraAdivinada = std::string(palabraOculta.length(), '_');  
   std::cout << "Bienvenido al juego del Ahorcado!" << std::endl;
   std::cout << "Palabra a adivinar: " << palabraAdivinada << std::endl;
 
