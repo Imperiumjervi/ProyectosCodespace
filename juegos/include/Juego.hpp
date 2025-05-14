@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include <vector>
 // Clase padre que tendra ahorcado y concentrese (Juego de juntar parejas)
 
 class Juego {
@@ -9,7 +10,7 @@ public:
   std::string fecha;
   int puntuacion;
 
-  Juego(std::string jugador);
+  Juego(std::string jugador, int puntuacion, std::string fecha);
   virtual ~Juego();
 
   virtual void iniciar() = 0;

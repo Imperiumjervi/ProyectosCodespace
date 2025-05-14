@@ -11,9 +11,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.0.1/CMakeCCompiler.cmake"
   "CMakeFiles/4.0.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.1/CMakeSystem.cmake"
+<<<<<<< HEAD
   "/home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1/CMakeLists.txt"
   "/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/CMakeLists.txt"
   "/home/jeffer/Documentos/gitHub/CodespaceClases/taller/CMakeLists.txt"
+=======
+  "/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/CMakeLists.txt"
+>>>>>>> origin/CambiosJeffer
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
@@ -53,14 +57,20 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+<<<<<<< HEAD
   "ejemplo1/CMakeFiles/CMakeDirectoryInformation.cmake"
   "taller/CMakeFiles/CMakeDirectoryInformation.cmake"
+=======
+>>>>>>> origin/CambiosJeffer
   "juegos/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+<<<<<<< HEAD
   "ejemplo1/CMakeFiles/ejemplo1.dir/DependInfo.cmake"
   "taller/CMakeFiles/taller.dir/DependInfo.cmake"
+=======
+>>>>>>> origin/CambiosJeffer
   "juegos/CMakeFiles/juegos.dir/DependInfo.cmake"
   )

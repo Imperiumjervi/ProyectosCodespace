@@ -3,5 +3,5 @@
 
 class ClasePorDefecto {
 public:
-    void saludar();
+  void saludar();
 };
