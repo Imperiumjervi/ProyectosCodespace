@@ -1,0 +1,195 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "taller",
+					"jsonFile" : "directory-taller-e1cb8e0f1d301b297e25.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "taller",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "taller3",
+					"jsonFile" : "directory-taller3-c6b11d8ec2dc760e8eae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "taller3",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "ejemplo1",
+					"jsonFile" : "directory-ejemplo1-50ca85a71d5772117cdd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "ejemplo1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "juegos",
+					"jsonFile" : "directory-juegos-1890d893be1b159fd516.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "juegos",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MultiProject"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "taller",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "taller3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "ejemplo1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "juegos",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "ejemplo1::@68068fddcc236e4bd94d",
+					"jsonFile" : "target-ejemplo1-3e637415d3d2ddefa0a7.json",
+					"name" : "ejemplo1",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "juegos::@9200a33c0de6485a533b",
+					"jsonFile" : "target-juegos-aa711428f06f2aecd3ff.json",
+					"name" : "juegos",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "taller::@5e792e433bb2ed1dbee5",
+					"jsonFile" : "target-taller-81828e10072b4cd2cc1e.json",
+					"name" : "taller",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "taller3::@d019989a3cfb292c8c8c",
+					"jsonFile" : "target-taller3-236349c581c1cb77d02c.json",
+					"name" : "taller3",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jeffer/Documentos/gitHub/CodespaceClases/build",
+		"source" : "/home/jeffer/Documentos/gitHub/CodespaceClases"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
