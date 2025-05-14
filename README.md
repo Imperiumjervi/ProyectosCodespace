@@ -11,7 +11,8 @@ Aqui trabajare en las clases de mateo
     - Se puede hacer con diferentes     funciones que impriman partes del cuerpo y en base a los condicionales, por cada fallo imprimirá una parte (lógica simple)
 - Poder tener diferentes dificultades para el Concentrese (ser dinamico)
 - En ambos juegos se tiene que limpiar la pantalla
-- En parejas, se recomienda que las casillas se muestren una vez
+- En parejas, se recomienda que las casillas se muestren una vez en el tablero
+  en vez de un mensaje que diga "En la casilla hay: "
 
 
 ## Pistas de mateo
