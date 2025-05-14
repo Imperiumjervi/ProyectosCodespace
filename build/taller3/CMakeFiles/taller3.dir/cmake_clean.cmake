@@ -4,8 +4,18 @@ file(REMOVE_RECURSE
   "CMakeFiles/taller3.dir/link.d"
   "CMakeFiles/taller3.dir/main.cpp.o"
   "CMakeFiles/taller3.dir/main.cpp.o.d"
-  "CMakeFiles/taller3.dir/src/clasepordefecto.cpp.o"
-  "CMakeFiles/taller3.dir/src/clasepordefecto.cpp.o.d"
+  "CMakeFiles/taller3.dir/src/Asistente.cpp.o"
+  "CMakeFiles/taller3.dir/src/Asistente.cpp.o.d"
+  "CMakeFiles/taller3.dir/src/Dvd.cpp.o"
+  "CMakeFiles/taller3.dir/src/Dvd.cpp.o.d"
+  "CMakeFiles/taller3.dir/src/Libro.cpp.o"
+  "CMakeFiles/taller3.dir/src/Libro.cpp.o.d"
+  "CMakeFiles/taller3.dir/src/Material.cpp.o"
+  "CMakeFiles/taller3.dir/src/Material.cpp.o.d"
+  "CMakeFiles/taller3.dir/src/Persona.cpp.o"
+  "CMakeFiles/taller3.dir/src/Persona.cpp.o.d"
+  "CMakeFiles/taller3.dir/src/Revista.cpp.o"
+  "CMakeFiles/taller3.dir/src/Revista.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

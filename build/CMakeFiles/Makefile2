@@ -205,12 +205,12 @@ taller/CMakeFiles/taller.dir/clean:
 taller3/CMakeFiles/taller3.dir/all:
 	$(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/depend
 	$(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=15,16,17 "Built target taller3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=15,16,17,18,19,20,21,22 "Built target taller3"
 .PHONY : taller3/CMakeFiles/taller3.dir/all
 
 # Build rule for subdir invocation for target.
 taller3/CMakeFiles/taller3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 taller3/CMakeFiles/taller3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles 0
 .PHONY : taller3/CMakeFiles/taller3.dir/rule
@@ -222,7 +222,7 @@ taller3: taller3/CMakeFiles/taller3.dir/rule
 # codegen rule for target.
 taller3/CMakeFiles/taller3.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=15,16,17 "Finished codegen for target taller3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=15,16,17,18,19,20,21,22 "Finished codegen for target taller3"
 .PHONY : taller3/CMakeFiles/taller3.dir/codegen
 
 # clean rule for target.

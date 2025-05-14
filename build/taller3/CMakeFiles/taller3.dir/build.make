@@ -86,34 +86,114 @@ taller3/CMakeFiles/taller3.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/taller3.dir/main.cpp.s"
 	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/main.cpp -o CMakeFiles/taller3.dir/main.cpp.s
 
-taller3/CMakeFiles/taller3.dir/src/clasepordefecto.cpp.o: taller3/CMakeFiles/taller3.dir/flags.make
-taller3/CMakeFiles/taller3.dir/src/clasepordefecto.cpp.o: /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/clasepordefecto.cpp
-taller3/CMakeFiles/taller3.dir/src/clasepordefecto.cpp.o: taller3/CMakeFiles/taller3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object taller3/CMakeFiles/taller3.dir/src/clasepordefecto.cpp.o"
-	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT taller3/CMakeFiles/taller3.dir/src/clasepordefecto.cpp.o -MF CMakeFiles/taller3.dir/src/clasepordefecto.cpp.o.d -o CMakeFiles/taller3.dir/src/clasepordefecto.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/clasepordefecto.cpp
+taller3/CMakeFiles/taller3.dir/src/Asistente.cpp.o: taller3/CMakeFiles/taller3.dir/flags.make
+taller3/CMakeFiles/taller3.dir/src/Asistente.cpp.o: /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Asistente.cpp
+taller3/CMakeFiles/taller3.dir/src/Asistente.cpp.o: taller3/CMakeFiles/taller3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object taller3/CMakeFiles/taller3.dir/src/Asistente.cpp.o"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT taller3/CMakeFiles/taller3.dir/src/Asistente.cpp.o -MF CMakeFiles/taller3.dir/src/Asistente.cpp.o.d -o CMakeFiles/taller3.dir/src/Asistente.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Asistente.cpp
 
-taller3/CMakeFiles/taller3.dir/src/clasepordefecto.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/taller3.dir/src/clasepordefecto.cpp.i"
-	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/clasepordefecto.cpp > CMakeFiles/taller3.dir/src/clasepordefecto.cpp.i
+taller3/CMakeFiles/taller3.dir/src/Asistente.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/taller3.dir/src/Asistente.cpp.i"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Asistente.cpp > CMakeFiles/taller3.dir/src/Asistente.cpp.i
 
-taller3/CMakeFiles/taller3.dir/src/clasepordefecto.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/taller3.dir/src/clasepordefecto.cpp.s"
-	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/clasepordefecto.cpp -o CMakeFiles/taller3.dir/src/clasepordefecto.cpp.s
+taller3/CMakeFiles/taller3.dir/src/Asistente.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/taller3.dir/src/Asistente.cpp.s"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Asistente.cpp -o CMakeFiles/taller3.dir/src/Asistente.cpp.s
+
+taller3/CMakeFiles/taller3.dir/src/Dvd.cpp.o: taller3/CMakeFiles/taller3.dir/flags.make
+taller3/CMakeFiles/taller3.dir/src/Dvd.cpp.o: /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Dvd.cpp
+taller3/CMakeFiles/taller3.dir/src/Dvd.cpp.o: taller3/CMakeFiles/taller3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object taller3/CMakeFiles/taller3.dir/src/Dvd.cpp.o"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT taller3/CMakeFiles/taller3.dir/src/Dvd.cpp.o -MF CMakeFiles/taller3.dir/src/Dvd.cpp.o.d -o CMakeFiles/taller3.dir/src/Dvd.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Dvd.cpp
+
+taller3/CMakeFiles/taller3.dir/src/Dvd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/taller3.dir/src/Dvd.cpp.i"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Dvd.cpp > CMakeFiles/taller3.dir/src/Dvd.cpp.i
+
+taller3/CMakeFiles/taller3.dir/src/Dvd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/taller3.dir/src/Dvd.cpp.s"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Dvd.cpp -o CMakeFiles/taller3.dir/src/Dvd.cpp.s
+
+taller3/CMakeFiles/taller3.dir/src/Libro.cpp.o: taller3/CMakeFiles/taller3.dir/flags.make
+taller3/CMakeFiles/taller3.dir/src/Libro.cpp.o: /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Libro.cpp
+taller3/CMakeFiles/taller3.dir/src/Libro.cpp.o: taller3/CMakeFiles/taller3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object taller3/CMakeFiles/taller3.dir/src/Libro.cpp.o"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT taller3/CMakeFiles/taller3.dir/src/Libro.cpp.o -MF CMakeFiles/taller3.dir/src/Libro.cpp.o.d -o CMakeFiles/taller3.dir/src/Libro.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Libro.cpp
+
+taller3/CMakeFiles/taller3.dir/src/Libro.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/taller3.dir/src/Libro.cpp.i"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Libro.cpp > CMakeFiles/taller3.dir/src/Libro.cpp.i
+
+taller3/CMakeFiles/taller3.dir/src/Libro.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/taller3.dir/src/Libro.cpp.s"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Libro.cpp -o CMakeFiles/taller3.dir/src/Libro.cpp.s
+
+taller3/CMakeFiles/taller3.dir/src/Material.cpp.o: taller3/CMakeFiles/taller3.dir/flags.make
+taller3/CMakeFiles/taller3.dir/src/Material.cpp.o: /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Material.cpp
+taller3/CMakeFiles/taller3.dir/src/Material.cpp.o: taller3/CMakeFiles/taller3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object taller3/CMakeFiles/taller3.dir/src/Material.cpp.o"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT taller3/CMakeFiles/taller3.dir/src/Material.cpp.o -MF CMakeFiles/taller3.dir/src/Material.cpp.o.d -o CMakeFiles/taller3.dir/src/Material.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Material.cpp
+
+taller3/CMakeFiles/taller3.dir/src/Material.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/taller3.dir/src/Material.cpp.i"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Material.cpp > CMakeFiles/taller3.dir/src/Material.cpp.i
+
+taller3/CMakeFiles/taller3.dir/src/Material.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/taller3.dir/src/Material.cpp.s"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Material.cpp -o CMakeFiles/taller3.dir/src/Material.cpp.s
+
+taller3/CMakeFiles/taller3.dir/src/Persona.cpp.o: taller3/CMakeFiles/taller3.dir/flags.make
+taller3/CMakeFiles/taller3.dir/src/Persona.cpp.o: /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Persona.cpp
+taller3/CMakeFiles/taller3.dir/src/Persona.cpp.o: taller3/CMakeFiles/taller3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object taller3/CMakeFiles/taller3.dir/src/Persona.cpp.o"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT taller3/CMakeFiles/taller3.dir/src/Persona.cpp.o -MF CMakeFiles/taller3.dir/src/Persona.cpp.o.d -o CMakeFiles/taller3.dir/src/Persona.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Persona.cpp
+
+taller3/CMakeFiles/taller3.dir/src/Persona.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/taller3.dir/src/Persona.cpp.i"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Persona.cpp > CMakeFiles/taller3.dir/src/Persona.cpp.i
+
+taller3/CMakeFiles/taller3.dir/src/Persona.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/taller3.dir/src/Persona.cpp.s"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Persona.cpp -o CMakeFiles/taller3.dir/src/Persona.cpp.s
+
+taller3/CMakeFiles/taller3.dir/src/Revista.cpp.o: taller3/CMakeFiles/taller3.dir/flags.make
+taller3/CMakeFiles/taller3.dir/src/Revista.cpp.o: /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Revista.cpp
+taller3/CMakeFiles/taller3.dir/src/Revista.cpp.o: taller3/CMakeFiles/taller3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object taller3/CMakeFiles/taller3.dir/src/Revista.cpp.o"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT taller3/CMakeFiles/taller3.dir/src/Revista.cpp.o -MF CMakeFiles/taller3.dir/src/Revista.cpp.o.d -o CMakeFiles/taller3.dir/src/Revista.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Revista.cpp
+
+taller3/CMakeFiles/taller3.dir/src/Revista.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/taller3.dir/src/Revista.cpp.i"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Revista.cpp > CMakeFiles/taller3.dir/src/Revista.cpp.i
+
+taller3/CMakeFiles/taller3.dir/src/Revista.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/taller3.dir/src/Revista.cpp.s"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Revista.cpp -o CMakeFiles/taller3.dir/src/Revista.cpp.s
 
 # Object files for target taller3
 taller3_OBJECTS = \
 "CMakeFiles/taller3.dir/main.cpp.o" \
-"CMakeFiles/taller3.dir/src/clasepordefecto.cpp.o"
+"CMakeFiles/taller3.dir/src/Asistente.cpp.o" \
+"CMakeFiles/taller3.dir/src/Dvd.cpp.o" \
+"CMakeFiles/taller3.dir/src/Libro.cpp.o" \
+"CMakeFiles/taller3.dir/src/Material.cpp.o" \
+"CMakeFiles/taller3.dir/src/Persona.cpp.o" \
+"CMakeFiles/taller3.dir/src/Revista.cpp.o"
 
 # External object files for target taller3
 taller3_EXTERNAL_OBJECTS =
 
 bin/taller3: taller3/CMakeFiles/taller3.dir/main.cpp.o
-bin/taller3: taller3/CMakeFiles/taller3.dir/src/clasepordefecto.cpp.o
+bin/taller3: taller3/CMakeFiles/taller3.dir/src/Asistente.cpp.o
+bin/taller3: taller3/CMakeFiles/taller3.dir/src/Dvd.cpp.o
+bin/taller3: taller3/CMakeFiles/taller3.dir/src/Libro.cpp.o
+bin/taller3: taller3/CMakeFiles/taller3.dir/src/Material.cpp.o
+bin/taller3: taller3/CMakeFiles/taller3.dir/src/Persona.cpp.o
+bin/taller3: taller3/CMakeFiles/taller3.dir/src/Revista.cpp.o
 bin/taller3: taller3/CMakeFiles/taller3.dir/build.make
 bin/taller3: taller3/CMakeFiles/taller3.dir/compiler_depend.ts
 bin/taller3: taller3/CMakeFiles/taller3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/taller3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ../bin/taller3"
 	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/taller3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

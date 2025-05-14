@@ -9,7 +9,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jeffer/Documentos/gitHub/CodespaceClases/taller3/main.cpp" "taller3/CMakeFiles/taller3.dir/main.cpp.o" "gcc" "taller3/CMakeFiles/taller3.dir/main.cpp.o.d"
-  "/home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/clasepordefecto.cpp" "taller3/CMakeFiles/taller3.dir/src/clasepordefecto.cpp.o" "gcc" "taller3/CMakeFiles/taller3.dir/src/clasepordefecto.cpp.o.d"
+  "/home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Asistente.cpp" "taller3/CMakeFiles/taller3.dir/src/Asistente.cpp.o" "gcc" "taller3/CMakeFiles/taller3.dir/src/Asistente.cpp.o.d"
+  "/home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Dvd.cpp" "taller3/CMakeFiles/taller3.dir/src/Dvd.cpp.o" "gcc" "taller3/CMakeFiles/taller3.dir/src/Dvd.cpp.o.d"
+  "/home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Libro.cpp" "taller3/CMakeFiles/taller3.dir/src/Libro.cpp.o" "gcc" "taller3/CMakeFiles/taller3.dir/src/Libro.cpp.o.d"
+  "/home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Material.cpp" "taller3/CMakeFiles/taller3.dir/src/Material.cpp.o" "gcc" "taller3/CMakeFiles/taller3.dir/src/Material.cpp.o.d"
+  "/home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Persona.cpp" "taller3/CMakeFiles/taller3.dir/src/Persona.cpp.o" "gcc" "taller3/CMakeFiles/taller3.dir/src/Persona.cpp.o.d"
+  "/home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/Revista.cpp" "taller3/CMakeFiles/taller3.dir/src/Revista.cpp.o" "gcc" "taller3/CMakeFiles/taller3.dir/src/Revista.cpp.o.d"
   "" "bin/taller3" "gcc" "taller3/CMakeFiles/taller3.dir/link.d"
   )
 

@@ -154,29 +154,149 @@ main.cpp.s:
 	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/clasepordefecto.o: src/clasepordefecto.cpp.o
-.PHONY : src/clasepordefecto.o
+src/Asistente.o: src/Asistente.cpp.o
+.PHONY : src/Asistente.o
 
 # target to build an object file
-src/clasepordefecto.cpp.o:
-	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/clasepordefecto.cpp.o
-.PHONY : src/clasepordefecto.cpp.o
+src/Asistente.cpp.o:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/Asistente.cpp.o
+.PHONY : src/Asistente.cpp.o
 
-src/clasepordefecto.i: src/clasepordefecto.cpp.i
-.PHONY : src/clasepordefecto.i
+src/Asistente.i: src/Asistente.cpp.i
+.PHONY : src/Asistente.i
 
 # target to preprocess a source file
-src/clasepordefecto.cpp.i:
-	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/clasepordefecto.cpp.i
-.PHONY : src/clasepordefecto.cpp.i
+src/Asistente.cpp.i:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/Asistente.cpp.i
+.PHONY : src/Asistente.cpp.i
 
-src/clasepordefecto.s: src/clasepordefecto.cpp.s
-.PHONY : src/clasepordefecto.s
+src/Asistente.s: src/Asistente.cpp.s
+.PHONY : src/Asistente.s
 
 # target to generate assembly for a file
-src/clasepordefecto.cpp.s:
-	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/clasepordefecto.cpp.s
-.PHONY : src/clasepordefecto.cpp.s
+src/Asistente.cpp.s:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/Asistente.cpp.s
+.PHONY : src/Asistente.cpp.s
+
+src/Dvd.o: src/Dvd.cpp.o
+.PHONY : src/Dvd.o
+
+# target to build an object file
+src/Dvd.cpp.o:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/Dvd.cpp.o
+.PHONY : src/Dvd.cpp.o
+
+src/Dvd.i: src/Dvd.cpp.i
+.PHONY : src/Dvd.i
+
+# target to preprocess a source file
+src/Dvd.cpp.i:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/Dvd.cpp.i
+.PHONY : src/Dvd.cpp.i
+
+src/Dvd.s: src/Dvd.cpp.s
+.PHONY : src/Dvd.s
+
+# target to generate assembly for a file
+src/Dvd.cpp.s:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/Dvd.cpp.s
+.PHONY : src/Dvd.cpp.s
+
+src/Libro.o: src/Libro.cpp.o
+.PHONY : src/Libro.o
+
+# target to build an object file
+src/Libro.cpp.o:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/Libro.cpp.o
+.PHONY : src/Libro.cpp.o
+
+src/Libro.i: src/Libro.cpp.i
+.PHONY : src/Libro.i
+
+# target to preprocess a source file
+src/Libro.cpp.i:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/Libro.cpp.i
+.PHONY : src/Libro.cpp.i
+
+src/Libro.s: src/Libro.cpp.s
+.PHONY : src/Libro.s
+
+# target to generate assembly for a file
+src/Libro.cpp.s:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/Libro.cpp.s
+.PHONY : src/Libro.cpp.s
+
+src/Material.o: src/Material.cpp.o
+.PHONY : src/Material.o
+
+# target to build an object file
+src/Material.cpp.o:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/Material.cpp.o
+.PHONY : src/Material.cpp.o
+
+src/Material.i: src/Material.cpp.i
+.PHONY : src/Material.i
+
+# target to preprocess a source file
+src/Material.cpp.i:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/Material.cpp.i
+.PHONY : src/Material.cpp.i
+
+src/Material.s: src/Material.cpp.s
+.PHONY : src/Material.s
+
+# target to generate assembly for a file
+src/Material.cpp.s:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/Material.cpp.s
+.PHONY : src/Material.cpp.s
+
+src/Persona.o: src/Persona.cpp.o
+.PHONY : src/Persona.o
+
+# target to build an object file
+src/Persona.cpp.o:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/Persona.cpp.o
+.PHONY : src/Persona.cpp.o
+
+src/Persona.i: src/Persona.cpp.i
+.PHONY : src/Persona.i
+
+# target to preprocess a source file
+src/Persona.cpp.i:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/Persona.cpp.i
+.PHONY : src/Persona.cpp.i
+
+src/Persona.s: src/Persona.cpp.s
+.PHONY : src/Persona.s
+
+# target to generate assembly for a file
+src/Persona.cpp.s:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/Persona.cpp.s
+.PHONY : src/Persona.cpp.s
+
+src/Revista.o: src/Revista.cpp.o
+.PHONY : src/Revista.o
+
+# target to build an object file
+src/Revista.cpp.o:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/Revista.cpp.o
+.PHONY : src/Revista.cpp.o
+
+src/Revista.i: src/Revista.cpp.i
+.PHONY : src/Revista.i
+
+# target to preprocess a source file
+src/Revista.cpp.i:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/Revista.cpp.i
+.PHONY : src/Revista.cpp.i
+
+src/Revista.s: src/Revista.cpp.s
+.PHONY : src/Revista.s
+
+# target to generate assembly for a file
+src/Revista.cpp.s:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/Revista.cpp.s
+.PHONY : src/Revista.cpp.s
 
 # Help Target
 help:
@@ -190,9 +310,24 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/clasepordefecto.o"
-	@echo "... src/clasepordefecto.i"
-	@echo "... src/clasepordefecto.s"
+	@echo "... src/Asistente.o"
+	@echo "... src/Asistente.i"
+	@echo "... src/Asistente.s"
+	@echo "... src/Dvd.o"
+	@echo "... src/Dvd.i"
+	@echo "... src/Dvd.s"
+	@echo "... src/Libro.o"
+	@echo "... src/Libro.i"
+	@echo "... src/Libro.s"
+	@echo "... src/Material.o"
+	@echo "... src/Material.i"
+	@echo "... src/Material.s"
+	@echo "... src/Persona.o"
+	@echo "... src/Persona.i"
+	@echo "... src/Persona.s"
+	@echo "... src/Revista.o"
+	@echo "... src/Revista.i"
+	@echo "... src/Revista.s"
 .PHONY : help
 
 
