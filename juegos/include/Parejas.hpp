@@ -8,6 +8,10 @@ public:
   int filas;
   int columnas;
   int parejasEncontradas{};
+  std::string jugador2;
+  int puntosJugador1{0};
+  int puntosJugador2{0};
+  int turnoActual{1}; // 1 o 2
 
   Parejas();
   Parejas(std::string jugador, int puntuacion, std::string fecha, int filas,
