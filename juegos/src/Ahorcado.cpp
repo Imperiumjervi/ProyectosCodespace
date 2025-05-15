@@ -50,6 +50,8 @@ void Ahorcado::iniciar() {
 
   if (palabraAdivinada == palabraOculta) {
     std::cout << "Ganaste rey/ina" << std::endl;
+    puntuacion++;
+    std::cout << "Tu puntuacion es: " << puntuacion << std::endl;
     guardarResultado("G");
     puntuacion += 10; // Se suma 10 puntos al puntaje
   } else {
