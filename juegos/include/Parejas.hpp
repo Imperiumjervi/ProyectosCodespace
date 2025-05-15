@@ -13,7 +13,8 @@ public:
   int puntosJugador2{0};
   int turnoActual{1}; // 1 o 2
 
-  Parejas(std::string jugador, int filas, int columnas);
+  Parejas();
+  Parejas(std::string jugador, int puntuacion, std::string fecha,int filas, int columnas);
   void iniciar() override;
 
   void cargarSimbolosDesdeArchivo(const std::string &rutaArchivo);

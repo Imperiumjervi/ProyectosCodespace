@@ -6,10 +6,9 @@
 #include <random>
 #include <string>
 
-Parejas::Parejas() : Juego(""), filas(0), columnas(0) {}
+Parejas::Parejas() : Juego("", 0, ""), filas(0), columnas(0) {}
 
-Parejas::Parejas(std::string jugador, int puntuacion, std::string fecha,
-                 int filas, int columnas)
+Parejas::Parejas(std::string jugador, int puntuacion, std::string fecha,int filas, int columnas)
     : Juego(jugador, puntuacion, fecha), filas(filas), columnas(columnas) {}
 
 void Parejas::iniciar() {
@@ -49,7 +48,9 @@ void Parejas::iniciar() {
   }
 
   std::cout << "Felicidades, encontraste todas las parejas!" << std::endl;
+  puntuacion++;
   guardarResultado("G");
+  std::cout << "Tu puntuacion es: " << puntuacion << std::endl;
 }
 
 void Parejas::mostrarTablero(const bool descubiertas[4][4]) {
