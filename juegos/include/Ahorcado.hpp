@@ -19,4 +19,5 @@ public:
   void setPalabrasDesdeArchivo(std::string rutaArchivo);
   void generarPalabraAleatoria();
   bool adivinarLetra(char letra);
+  void guardarResultado(std::string resultado) override;
 };

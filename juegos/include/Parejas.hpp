@@ -21,4 +21,5 @@ public:
   void cargarSimbolosDesdeArchivo(const std::string &rutaArchivo);
   void mostrarTablero(const bool descubiertas[4][4]);
   bool descubrirCasilla(int pos1, int pos2);
+    void guardarResultado(std::string resultado) override;
 };
