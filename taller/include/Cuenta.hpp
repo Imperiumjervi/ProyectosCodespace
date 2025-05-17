@@ -4,14 +4,14 @@
 class Cuenta {
 private:
   double saldo;
-  std::string numero;
 
 public:
   Cuenta();
-  Cuenta(double saldo, std::string numero);
+  Cuenta(double saldo);
+
   double getSaldo();
   void setSaldo(double saldo);
 
-  std::string getNumero();
-  void setNumero(std::string numero);
+  void consignar(double cantidad);
+  void retirar(double cantidad);
 };

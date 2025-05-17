@@ -1,4 +1,5 @@
 #pragma once
+#include "Cuenta.hpp"
 #include <iostream>
 #include <string>
 
@@ -15,6 +16,5 @@ public:
   int getNumero();
   void setNumero(int numero);
 
-  void consignar();
-  void retirar();
+  Cuenta *cuenta;
 };
