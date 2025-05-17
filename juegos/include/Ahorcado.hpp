@@ -18,6 +18,7 @@ public:
   void setPalabrasDesdeArchivo(std::string rutaArchivo);
   void generarPalabraAleatoria();
   bool adivinarLetra(char letra);
+  // int leerPuntuacion();
 
   // Asi con condicionales pienso dibujar el Ahorcado
   void dibujarCabeza();

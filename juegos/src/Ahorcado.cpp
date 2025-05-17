@@ -13,8 +13,22 @@ Ahorcado::Ahorcado(std::string jugador, int puntuacion, std::string fecha,
   intentosRestantes = 7;
 }
 
+/*int Ahorcado::leerPuntuacion() {
+  std::ifstream archivo("puntuacion.txt");
+  if (archivo.is_open()) {
+    archivo >> puntuacion;
+    archivo.close();
+  } else {
+    std::cerr << "No se pudo abrir el archivo de puntuacion." << std::endl;
+    puntuacion =
+        0; // Si no se puede abrir el archivo, se inicializa la puntuación a 0
+  }
+  return puntuacion;
+}*/
+
 void Ahorcado::iniciar() {
   generarPalabraAleatoria();
+  // leerPuntuacion();
   palabraAdivinada = std::string(palabraOculta.length(), '_');
   std::cout << "Bienvenido al juego del Ahorcado!" << std::endl;
   std::cout << "Palabra a adivinar: " << palabraAdivinada << std::endl;
@@ -37,6 +51,7 @@ void Ahorcado::iniciar() {
   if (palabraAdivinada == palabraOculta) {
     std::cout << "Ganaste rey/ina" << std::endl;
     guardarResultado("G");
+    puntuacion += 10; // Se suma 10 puntos al puntaje
   } else {
     std::cout << "Perdiste, la palabra era: " << palabraOculta << std::endl;
     guardarResultado("P");
