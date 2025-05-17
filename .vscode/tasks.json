@@ -47,6 +47,18 @@
       "group": "build",
       "problemMatcher": ["$gcc"],
       "dependsOn": "CMake: Configure"
+    },
+    {
+      "label": "Build Parcial",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build", "${workspaceFolder}/build",
+        "--target", "parcial"
+      ],
+      "group": "build",
+      "problemMatcher": ["$gcc"],
+      "dependsOn": "CMake: Configure"
     }
   ]
 }
