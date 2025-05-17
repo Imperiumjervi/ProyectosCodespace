@@ -27,6 +27,8 @@ Ahorcado::Ahorcado(std::string jugador, int puntuacion, std::string fecha,
 }*/
 
 void Ahorcado::iniciar() {
+  nombreJuego = "Ahorcado";
+  LeerPuntuacion();
   generarPalabraAleatoria();
   // leerPuntuacion();
   palabraAdivinada = std::string(palabraOculta.length(), '_');

@@ -18,6 +18,7 @@ public:
           int columnas);
   void iniciar() override;
 
+  int LeerPuntuacion();
   void cargarSimbolosDesdeArchivo(const std::string &rutaArchivo);
   void mostrarTablero(const bool descubiertas[4][4]);
   bool descubrirCasilla(int pos1, int pos2);
