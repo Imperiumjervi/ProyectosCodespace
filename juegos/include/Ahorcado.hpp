@@ -11,13 +11,16 @@ public:
   std::string jugadorGenerador;
 
   Ahorcado();
-  Ahorcado(std::string jugador, int puntuacion, std::string fecha, bool esCPU,
-           std::string jugadorGenerador);
+  Ahorcado(std::string jugador, bool esCPU, std::string jugadorGenerador);
   void iniciar() override;
 
+  int LeerPuntuacion();
   void setPalabrasDesdeArchivo(std::string rutaArchivo);
   void generarPalabraAleatoria();
   bool adivinarLetra(char letra);
+<<<<<<< HEAD
+  void guardarResultado(std::string resultado) override;
+=======
 
   // Asi con condicionales pienso dibujar el Ahorcado
   void dibujarCabeza();
@@ -25,4 +28,5 @@ public:
   void dibujarBrazos();
   void dibujarPiernas();
   void dibujarAhorcado();
+>>>>>>> origin/main
 };

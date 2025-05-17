@@ -1,0 +1,176 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+<<<<<<<< HEAD:build/.cmake/api/v1/reply/codemodel-v2-32734c791a8de5f23a82.json
+						1,
+						2,
+						3
+========
+						1
+>>>>>>>> origin/CambiosJeffer:build/.cmake/api/v1/reply/codemodel-v2-419fac0790036a7f89ab.json
+					],
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "juegos",
+					"jsonFile" : "directory-juegos-1890d893be1b159fd516.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "juegos",
+					"targetIndexes" : 
+					[
+						0
+					]
+<<<<<<<< HEAD:build/.cmake/api/v1/reply/codemodel-v2-32734c791a8de5f23a82.json
+				},
+				{
+					"build" : "taller",
+					"jsonFile" : "directory-taller-e1cb8e0f1d301b297e25.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "taller",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "juegos",
+					"jsonFile" : "directory-juegos-1890d893be1b159fd516.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "juegos",
+					"targetIndexes" : 
+					[
+						1
+					]
+========
+>>>>>>>> origin/CambiosJeffer:build/.cmake/api/v1/reply/codemodel-v2-419fac0790036a7f89ab.json
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+<<<<<<<< HEAD:build/.cmake/api/v1/reply/codemodel-v2-32734c791a8de5f23a82.json
+						1,
+						2,
+						3
+========
+						1
+>>>>>>>> origin/CambiosJeffer:build/.cmake/api/v1/reply/codemodel-v2-419fac0790036a7f89ab.json
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MultiProject"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "juegos",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+<<<<<<<< HEAD:build/.cmake/api/v1/reply/codemodel-v2-32734c791a8de5f23a82.json
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "ejemplo1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "ejemplo1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+========
+>>>>>>>> origin/CambiosJeffer:build/.cmake/api/v1/reply/codemodel-v2-419fac0790036a7f89ab.json
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "juegos::@9200a33c0de6485a533b",
+					"jsonFile" : "target-juegos-aa711428f06f2aecd3ff.json",
+					"name" : "juegos",
+					"projectIndex" : 1
+<<<<<<<< HEAD:build/.cmake/api/v1/reply/codemodel-v2-32734c791a8de5f23a82.json
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "juegos::@9200a33c0de6485a533b",
+					"jsonFile" : "target-juegos-aa711428f06f2aecd3ff.json",
+					"name" : "juegos",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "taller::@5e792e433bb2ed1dbee5",
+					"jsonFile" : "target-taller-7f87c7e3f2b846d6118b.json",
+					"name" : "taller",
+					"projectIndex" : 2
+========
+>>>>>>>> origin/CambiosJeffer:build/.cmake/api/v1/reply/codemodel-v2-419fac0790036a7f89ab.json
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jeffer/Documentos/gitHub/CodespaceClases/build",
+		"source" : "/home/jeffer/Documentos/gitHub/CodespaceClases"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

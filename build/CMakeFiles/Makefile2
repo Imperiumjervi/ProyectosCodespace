@@ -63,30 +63,62 @@ CMAKE_BINARY_DIR = /home/jeffer/Documentos/gitHub/CodespaceClases/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+<<<<<<< HEAD
+<<<<<<< HEAD
+all: ejemplo1/all
+all: taller/all
+=======
+>>>>>>> origin/CambiosJeffer
+=======
 all: taller/all
 all: taller3/all
 all: ejemplo1/all
+>>>>>>> origin/main
 all: juegos/all
 .PHONY : all
 
 # The main recursive "codegen" target.
+<<<<<<< HEAD
+<<<<<<< HEAD
+codegen: ejemplo1/codegen
+codegen: taller/codegen
+=======
+>>>>>>> origin/CambiosJeffer
+=======
 codegen: taller/codegen
 codegen: taller3/codegen
 codegen: ejemplo1/codegen
+>>>>>>> origin/main
 codegen: juegos/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
+<<<<<<< HEAD
+<<<<<<< HEAD
+preinstall: ejemplo1/preinstall
+preinstall: taller/preinstall
+=======
+>>>>>>> origin/CambiosJeffer
+=======
 preinstall: taller/preinstall
 preinstall: taller3/preinstall
 preinstall: ejemplo1/preinstall
+>>>>>>> origin/main
 preinstall: juegos/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+<<<<<<< HEAD
+<<<<<<< HEAD
+clean: ejemplo1/clean
+clean: taller/clean
+=======
+>>>>>>> origin/CambiosJeffer
+=======
 clean: taller/clean
 clean: taller3/clean
 clean: ejemplo1/clean
+>>>>>>> origin/main
 clean: juegos/clean
 .PHONY : clean
 
@@ -129,6 +161,29 @@ juegos/clean: juegos/CMakeFiles/juegos.dir/clean
 .PHONY : juegos/clean
 
 #=============================================================================
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Directory level rules for directory juegos
+
+# Recursive "all" directory target.
+juegos/all: juegos/CMakeFiles/juegos.dir/all
+.PHONY : juegos/all
+
+# Recursive "codegen" directory target.
+juegos/codegen: juegos/CMakeFiles/juegos.dir/codegen
+.PHONY : juegos/codegen
+
+# Recursive "preinstall" directory target.
+juegos/preinstall:
+.PHONY : juegos/preinstall
+
+# Recursive "clean" directory target.
+juegos/clean: juegos/CMakeFiles/juegos.dir/clean
+.PHONY : juegos/clean
+
+#=============================================================================
+=======
+>>>>>>> origin/main
 # Directory level rules for directory taller
 
 # Recursive "all" directory target.
@@ -148,6 +203,10 @@ taller/clean: taller/CMakeFiles/taller.dir/clean
 .PHONY : taller/clean
 
 #=============================================================================
+<<<<<<< HEAD
+# Target rules for target ejemplo1/CMakeFiles/ejemplo1.dir
+=======
+=======
 # Directory level rules for directory taller3
 
 # Recursive "all" directory target.
@@ -261,6 +320,78 @@ ejemplo1/CMakeFiles/ejemplo1.dir/codegen:
 ejemplo1/CMakeFiles/ejemplo1.dir/clean:
 	$(MAKE) $(MAKESILENT) -f ejemplo1/CMakeFiles/ejemplo1.dir/build.make ejemplo1/CMakeFiles/ejemplo1.dir/clean
 .PHONY : ejemplo1/CMakeFiles/ejemplo1.dir/clean
+
+#=============================================================================
+>>>>>>> origin/main
+# Target rules for target juegos/CMakeFiles/juegos.dir
+>>>>>>> origin/CambiosJeffer
+
+# All Build rule for target.
+juegos/CMakeFiles/juegos.dir/all:
+	$(MAKE) $(MAKESILENT) -f juegos/CMakeFiles/juegos.dir/build.make juegos/CMakeFiles/juegos.dir/depend
+	$(MAKE) $(MAKESILENT) -f juegos/CMakeFiles/juegos.dir/build.make juegos/CMakeFiles/juegos.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=4,5,6,7,8,9,10 "Built target juegos"
+.PHONY : juegos/CMakeFiles/juegos.dir/all
+
+# Build rule for subdir invocation for target.
+juegos/CMakeFiles/juegos.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 juegos/CMakeFiles/juegos.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles 0
+.PHONY : juegos/CMakeFiles/juegos.dir/rule
+
+# Convenience name for target.
+juegos: juegos/CMakeFiles/juegos.dir/rule
+.PHONY : juegos
+
+# codegen rule for target.
+juegos/CMakeFiles/juegos.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f juegos/CMakeFiles/juegos.dir/build.make juegos/CMakeFiles/juegos.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=4,5,6,7,8,9,10 "Finished codegen for target juegos"
+.PHONY : juegos/CMakeFiles/juegos.dir/codegen
+
+# clean rule for target.
+<<<<<<< HEAD
+ejemplo1/CMakeFiles/ejemplo1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ejemplo1/CMakeFiles/ejemplo1.dir/build.make ejemplo1/CMakeFiles/ejemplo1.dir/clean
+.PHONY : ejemplo1/CMakeFiles/ejemplo1.dir/clean
+
+#=============================================================================
+# Target rules for target taller/CMakeFiles/taller.dir
+
+# All Build rule for target.
+taller/CMakeFiles/taller.dir/all:
+	$(MAKE) $(MAKESILENT) -f taller/CMakeFiles/taller.dir/build.make taller/CMakeFiles/taller.dir/depend
+	$(MAKE) $(MAKESILENT) -f taller/CMakeFiles/taller.dir/build.make taller/CMakeFiles/taller.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=11,12,13 "Built target taller"
+.PHONY : taller/CMakeFiles/taller.dir/all
+
+# Build rule for subdir invocation for target.
+taller/CMakeFiles/taller.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 taller/CMakeFiles/taller.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles 0
+.PHONY : taller/CMakeFiles/taller.dir/rule
+
+# Convenience name for target.
+taller: taller/CMakeFiles/taller.dir/rule
+.PHONY : taller
+
+# codegen rule for target.
+taller/CMakeFiles/taller.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f taller/CMakeFiles/taller.dir/build.make taller/CMakeFiles/taller.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=11,12,13 "Finished codegen for target taller"
+.PHONY : taller/CMakeFiles/taller.dir/codegen
+
+# clean rule for target.
+taller/CMakeFiles/taller.dir/clean:
+	$(MAKE) $(MAKESILENT) -f taller/CMakeFiles/taller.dir/build.make taller/CMakeFiles/taller.dir/clean
+.PHONY : taller/CMakeFiles/taller.dir/clean
+=======
+juegos/CMakeFiles/juegos.dir/clean:
+	$(MAKE) $(MAKESILENT) -f juegos/CMakeFiles/juegos.dir/build.make juegos/CMakeFiles/juegos.dir/clean
+.PHONY : juegos/CMakeFiles/juegos.dir/clean
+>>>>>>> origin/CambiosJeffer
 
 #=============================================================================
 # Target rules for target juegos/CMakeFiles/juegos.dir

@@ -26,6 +26,33 @@ void Juego::guardarResultado(std::string resultado) {
   }
 }
 
+void Juego::Puntuacion() {
+  std::ifstream archivo("resultados_generales.txt");
+  if (archivo.is_open()) {
+    std::string linea;
+    while (std::getline(archivo, linea)) {
+      std::cout << linea << std::endl;
+    }
+    archivo.close();
+  } else {
+    std::cerr << "No se pudo abrir el archivo para mostrar la puntuacion"
+              << std::endl;
+  }
+}
+void Juego::MostrarResultados() {
+  std::ifstream archivo("resultados_generales.txt");
+  if (archivo.is_open()) {
+    std::string linea;
+    while (std::getline(archivo, linea)) {
+      std::cout << linea << std::endl;
+    }
+    archivo.close();
+  } else {
+    std::cerr << "No se pudo abrir el archivo para mostrar los resultados"
+              << std::endl;
+  }
+}
+
 std::string Juego::obtenerFechaActual() {
   time_t ahora = time(0);
   tm *tiempoLocal = localtime(&ahora);

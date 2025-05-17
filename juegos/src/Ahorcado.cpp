@@ -6,16 +6,26 @@
 #include <utility>
 #include <vector>
 
-Ahorcado::Ahorcado(std::string jugador, int puntuacion, std::string fecha,
-                   bool esCPU, std::string jugadorGenerador)
-    : Juego(jugador, puntuacion, fecha), esCPU(esCPU),
-      jugadorGenerador(std::move(jugadorGenerador)) {
-  intentosRestantes = 7;
+Ahorcado::Ahorcado(std::string jugador, bool esCPU, std::string jugadorGenerador) 
+    : Juego(jugador, 0, ""), esCPU(esCPU), jugadorGenerador(jugadorGenerador) {
 }
 
+int Ahorcado::LeerPuntuacion() {
+  std::ifstream archivo("puntuacion.txt");
+  if (archivo.is_open()) {
+    archivo >> puntuacion;
+    archivo.close();
+  } else {
+    std::cerr << "No se pudo abrir el archivo de puntuacion." << std::endl;
+    puntuacion = 0; // Si no se puede abrir el archivo, se inicializa la puntuación a 0
+  }
+  return puntuacion;
+}
 void Ahorcado::iniciar() {
+  nombreJuego = "Ahorcado";
+  LeerPuntuacion();
   generarPalabraAleatoria();
-  palabraAdivinada = std::string(palabraOculta.length(), '_');
+  palabraAdivinada = std::string(palabraOculta.length(), '_');  
   std::cout << "Bienvenido al juego del Ahorcado!" << std::endl;
   std::cout << "Palabra a adivinar: " << palabraAdivinada << std::endl;
 
@@ -36,6 +46,8 @@ void Ahorcado::iniciar() {
 
   if (palabraAdivinada == palabraOculta) {
     std::cout << "Ganaste rey/ina" << std::endl;
+    puntuacion++;
+    std::cout << "Tu puntuacion es: " << puntuacion << std::endl;
     guardarResultado("G");
   } else {
     std::cout << "Perdiste, la palabra era: " << palabraOculta << std::endl;
@@ -91,4 +103,15 @@ bool Ahorcado::adivinarLetra(char letra) {
   if (!acierto)
     intentosRestantes--;
   return acierto;
+}
+
+void Ahorcado::guardarResultado(std::string resultado) {
+  std::ofstream archivo("resultados_ahorcado.txt", std::ios::app);
+  if (archivo.is_open()) {
+    archivo << "Jugador: " << jugador << ", Resultado: " << resultado
+            << ", Puntuacion: " << puntuacion << std::endl;
+    archivo.close();
+  } else {
+    std::cerr << "No se pudo abrir el archivo de resultados." << std::endl;
+  }
 }
