@@ -60,6 +60,8 @@ void Parejas::iniciar() {
     if (descubrirCasilla(pos1, pos2)) {
       descubiertas[x1][y1] = true;
       descubiertas[x2][y2] = true;
+      parejasEncontradas++;
+      std::cout << "Pareja encontrada!" << std::endl;
     }
 
     // system("clear"); --> Tiene que ir para que limpie
@@ -107,6 +109,13 @@ void Parejas::cargarSimbolosDesdeArchivo(const std::string &rutaArchivo) {
   int totalCasillas = filas * columnas;
   if (simbolos.size() * 2 < totalCasillas) {
     std::cerr << "No hay suficientes simbolos" << std::endl;
+    std::cerr << "Necesitas al menos " << totalCasillas / 2 << " simbolos diferentes." << std::endl;
+    std::cerr << "El juego no puede iniciarse." << std::endl;
+    tablero[0][0] = 'E'; // Indicar error en el tablero
+    tablero[0][1] = 'R'; // Indicar error en el tablero
+    tablero[0][2] = 'R'; // Indicar error en el tablero
+    tablero[0][3] = 'O'; // Indicar error en el tablero
+    tablero[1][0] = 'R'; // Indicar error en el tablero
     return;
   }
 
@@ -147,4 +156,15 @@ bool Parejas::descubrirCasilla(int pos1, int pos2) {
     return true;
   }
   return false;
+}
+
+void Parejas::guardarResultado(std::string resultado) {
+  std::ofstream archivo("resultados_parejas.txt", std::ios::app);
+  if (archivo.is_open()) {
+    archivo << fecha << " " << jugador << " " << nombreJuego << " "
+            << resultado << " " << puntuacion << std::endl;
+  } else {
+    std::cerr << "No se pudo abrir el archivo para guardar el resultado"
+              << std::endl;
+  }
 }

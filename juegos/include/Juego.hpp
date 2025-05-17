@@ -15,7 +15,8 @@ public:
 
   virtual void iniciar() = 0;
   virtual void guardarResultado(std::string resultado);
-  virtual void Puntuacion() = 0;
   virtual void MostrarResultados() = 0;
   std::string obtenerFechaActual();
+  void Puntuacion();
+  int LeerPuntuacion();
 };

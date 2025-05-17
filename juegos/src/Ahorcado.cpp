@@ -111,3 +111,14 @@ bool Ahorcado::adivinarLetra(char letra) {
     intentosRestantes--;
   return acierto;
 }
+
+void Ahorcado::guardarResultado(std::string resultado) {
+  std::ofstream archivo("resultados_ahorcado.txt", std::ios::app);
+  if (archivo.is_open()) {
+    archivo << "Jugador: " << jugador << ", Resultado: " << resultado
+            << ", Puntuacion: " << puntuacion << std::endl;
+    archivo.close();
+  } else {
+    std::cerr << "No se pudo abrir el archivo de resultados." << std::endl;
+  }
+}
