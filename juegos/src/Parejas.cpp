@@ -63,6 +63,8 @@ void Parejas::iniciar() {
       parejasEncontradas++;
       std::cout << "Pareja encontrada!" << std::endl;
     }
+
+    // system("clear"); --> Tiene que ir para que limpie
   }
 
   std::cout << "Felicidades, encontraste todas las parejas!" << std::endl;

@@ -26,11 +26,15 @@
 	"objects" : 
 	[
 		{
+<<<<<<< HEAD:build/.cmake/api/v1/reply/index-2025-05-13T16-09-44-0944.json
 <<<<<<<< HEAD:build/.cmake/api/v1/reply/index-2025-05-10T16-44-36-0229.json
 			"jsonFile" : "codemodel-v2-32734c791a8de5f23a82.json",
 ========
 			"jsonFile" : "codemodel-v2-419fac0790036a7f89ab.json",
 >>>>>>>> origin/CambiosJeffer:build/.cmake/api/v1/reply/index-2025-05-13T16-09-44-0944.json
+=======
+			"jsonFile" : "codemodel-v2-879c31dbb8bf98a99c36.json",
+>>>>>>> origin/main:build/.cmake/api/v1/reply/index-2025-05-14T01-42-28-0026.json
 			"kind" : "codemodel",
 			"version" : 
 			{
@@ -39,11 +43,15 @@
 			}
 		},
 		{
+<<<<<<< HEAD:build/.cmake/api/v1/reply/index-2025-05-13T16-09-44-0944.json
 <<<<<<<< HEAD:build/.cmake/api/v1/reply/index-2025-05-10T16-44-36-0229.json
 			"jsonFile" : "cache-v2-86d4d817713c195422dd.json",
 ========
 			"jsonFile" : "cache-v2-771f810964ca79c96155.json",
 >>>>>>>> origin/CambiosJeffer:build/.cmake/api/v1/reply/index-2025-05-13T16-09-44-0944.json
+=======
+			"jsonFile" : "cache-v2-2cfa904237d6da5ac281.json",
+>>>>>>> origin/main:build/.cmake/api/v1/reply/index-2025-05-14T01-42-28-0026.json
 			"kind" : "cache",
 			"version" : 
 			{
@@ -52,11 +60,15 @@
 			}
 		},
 		{
+<<<<<<< HEAD:build/.cmake/api/v1/reply/index-2025-05-13T16-09-44-0944.json
 <<<<<<<< HEAD:build/.cmake/api/v1/reply/index-2025-05-10T16-44-36-0229.json
 			"jsonFile" : "cmakeFiles-v1-d03a9540e2d8389dcdcb.json",
 ========
 			"jsonFile" : "cmakeFiles-v1-bb0aa4ba337e8c70ae69.json",
 >>>>>>>> origin/CambiosJeffer:build/.cmake/api/v1/reply/index-2025-05-13T16-09-44-0944.json
+=======
+			"jsonFile" : "cmakeFiles-v1-296460c9b7267c907390.json",
+>>>>>>> origin/main:build/.cmake/api/v1/reply/index-2025-05-14T01-42-28-0026.json
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -67,11 +79,15 @@
 	],
 	"reply" : 
 	{
+<<<<<<< HEAD:build/.cmake/api/v1/reply/index-2025-05-13T16-09-44-0944.json
 <<<<<<<< HEAD:build/.cmake/api/v1/reply/index-2025-05-10T16-44-36-0229.json
 		"client-b3f8d295-b597-4891-8003-9047701f123b" : 
 ========
 		"client-18f1adee-84f6-4034-aa0f-b0236b3c8403" : 
 >>>>>>>> origin/CambiosJeffer:build/.cmake/api/v1/reply/index-2025-05-13T16-09-44-0944.json
+=======
+		"client-b97af0f2-108f-4da5-892c-16ddbdf1fec5" : 
+>>>>>>> origin/main:build/.cmake/api/v1/reply/index-2025-05-14T01-42-28-0026.json
 		{
 			"query.json" : 
 			{
@@ -93,11 +109,15 @@
 				"responses" : 
 				[
 					{
+<<<<<<< HEAD:build/.cmake/api/v1/reply/index-2025-05-13T16-09-44-0944.json
 <<<<<<<< HEAD:build/.cmake/api/v1/reply/index-2025-05-10T16-44-36-0229.json
 						"jsonFile" : "codemodel-v2-32734c791a8de5f23a82.json",
 ========
 						"jsonFile" : "codemodel-v2-419fac0790036a7f89ab.json",
 >>>>>>>> origin/CambiosJeffer:build/.cmake/api/v1/reply/index-2025-05-13T16-09-44-0944.json
+=======
+						"jsonFile" : "codemodel-v2-879c31dbb8bf98a99c36.json",
+>>>>>>> origin/main:build/.cmake/api/v1/reply/index-2025-05-14T01-42-28-0026.json
 						"kind" : "codemodel",
 						"version" : 
 						{
@@ -106,11 +126,15 @@
 						}
 					},
 					{
+<<<<<<< HEAD:build/.cmake/api/v1/reply/index-2025-05-13T16-09-44-0944.json
 <<<<<<<< HEAD:build/.cmake/api/v1/reply/index-2025-05-10T16-44-36-0229.json
 						"jsonFile" : "cache-v2-86d4d817713c195422dd.json",
 ========
 						"jsonFile" : "cache-v2-771f810964ca79c96155.json",
 >>>>>>>> origin/CambiosJeffer:build/.cmake/api/v1/reply/index-2025-05-13T16-09-44-0944.json
+=======
+						"jsonFile" : "cache-v2-2cfa904237d6da5ac281.json",
+>>>>>>> origin/main:build/.cmake/api/v1/reply/index-2025-05-14T01-42-28-0026.json
 						"kind" : "cache",
 						"version" : 
 						{
@@ -119,11 +143,15 @@
 						}
 					},
 					{
+<<<<<<< HEAD:build/.cmake/api/v1/reply/index-2025-05-13T16-09-44-0944.json
 <<<<<<<< HEAD:build/.cmake/api/v1/reply/index-2025-05-10T16-44-36-0229.json
 						"jsonFile" : "cmakeFiles-v1-d03a9540e2d8389dcdcb.json",
 ========
 						"jsonFile" : "cmakeFiles-v1-bb0aa4ba337e8c70ae69.json",
 >>>>>>>> origin/CambiosJeffer:build/.cmake/api/v1/reply/index-2025-05-13T16-09-44-0944.json
+=======
+						"jsonFile" : "cmakeFiles-v1-296460c9b7267c907390.json",
+>>>>>>> origin/main:build/.cmake/api/v1/reply/index-2025-05-14T01-42-28-0026.json
 						"kind" : "cmakeFiles",
 						"version" : 
 						{

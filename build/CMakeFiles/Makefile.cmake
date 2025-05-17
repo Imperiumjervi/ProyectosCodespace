@@ -12,12 +12,19 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.0.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.1/CMakeSystem.cmake"
 <<<<<<< HEAD
+<<<<<<< HEAD
   "/home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1/CMakeLists.txt"
   "/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/CMakeLists.txt"
   "/home/jeffer/Documentos/gitHub/CodespaceClases/taller/CMakeLists.txt"
 =======
   "/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/CMakeLists.txt"
 >>>>>>> origin/CambiosJeffer
+=======
+  "/home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1/CMakeLists.txt"
+  "/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/CMakeLists.txt"
+  "/home/jeffer/Documentos/gitHub/CodespaceClases/taller/CMakeLists.txt"
+  "/home/jeffer/Documentos/gitHub/CodespaceClases/taller3/CMakeLists.txt"
+>>>>>>> origin/main
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
@@ -58,19 +65,31 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
 <<<<<<< HEAD
+<<<<<<< HEAD
   "ejemplo1/CMakeFiles/CMakeDirectoryInformation.cmake"
   "taller/CMakeFiles/CMakeDirectoryInformation.cmake"
 =======
 >>>>>>> origin/CambiosJeffer
+=======
+  "taller/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "taller3/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "ejemplo1/CMakeFiles/CMakeDirectoryInformation.cmake"
+>>>>>>> origin/main
   "juegos/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
 <<<<<<< HEAD
+<<<<<<< HEAD
   "ejemplo1/CMakeFiles/ejemplo1.dir/DependInfo.cmake"
   "taller/CMakeFiles/taller.dir/DependInfo.cmake"
 =======
 >>>>>>> origin/CambiosJeffer
+=======
+  "taller/CMakeFiles/taller.dir/DependInfo.cmake"
+  "taller3/CMakeFiles/taller3.dir/DependInfo.cmake"
+  "ejemplo1/CMakeFiles/ejemplo1.dir/DependInfo.cmake"
+>>>>>>> origin/main
   "juegos/CMakeFiles/juegos.dir/DependInfo.cmake"
   )

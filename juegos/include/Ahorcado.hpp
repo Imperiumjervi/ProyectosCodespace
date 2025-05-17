@@ -1,7 +1,6 @@
 #pragma once
 #include "Juego.hpp"
 #include <string>
-#include <vector>
 
 class Ahorcado : public Juego {
 public:
@@ -19,5 +18,15 @@ public:
   void setPalabrasDesdeArchivo(std::string rutaArchivo);
   void generarPalabraAleatoria();
   bool adivinarLetra(char letra);
+<<<<<<< HEAD
   void guardarResultado(std::string resultado) override;
+=======
+
+  // Asi con condicionales pienso dibujar el Ahorcado
+  void dibujarCabeza();
+  void dibujarCuerpo();
+  void dibujarBrazos();
+  void dibujarPiernas();
+  void dibujarAhorcado();
+>>>>>>> origin/main
 };

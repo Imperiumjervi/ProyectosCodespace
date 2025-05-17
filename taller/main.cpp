@@ -1,8 +1,9 @@
+#include "include/Cuenta.hpp"
+#include "include/Usuario.hpp"
 #include <iostream>
-#include "include/clasepordefecto.hpp"
 
 int main() {
-    ClasePorDefecto obj;
-    obj.saludar();
-    return 0;
+  Cuenta cunenta(1000, "123456789");
+  std::cout << "Saldo: " << cunenta.getSaldo() << std::endl;
+  return 0;
 }

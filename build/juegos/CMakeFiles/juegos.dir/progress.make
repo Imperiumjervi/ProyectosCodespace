@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/main
 CMAKE_PROGRESS_1 = 4
 CMAKE_PROGRESS_2 = 5
 CMAKE_PROGRESS_3 = 6
@@ -6,6 +9,7 @@ CMAKE_PROGRESS_4 = 7
 CMAKE_PROGRESS_5 = 8
 CMAKE_PROGRESS_6 = 9
 CMAKE_PROGRESS_7 = 10
+<<<<<<< HEAD
 =======
 CMAKE_PROGRESS_1 = 1
 CMAKE_PROGRESS_2 = 2
@@ -15,4 +19,6 @@ CMAKE_PROGRESS_5 = 5
 CMAKE_PROGRESS_6 = 6
 CMAKE_PROGRESS_7 = 7
 >>>>>>> origin/CambiosJeffer
+=======
+>>>>>>> origin/main
 

@@ -2,6 +2,7 @@
   "folders": [
     { "name": "Ejemplo1", "path": "ejemplo1"},
     { "name": "Taller",   "path": "taller"},
+    { "name": "Taller3",  "path": "taller3"};
     { "name": "Juegos",   "path": "juegos"}
   ],
   "settings": {

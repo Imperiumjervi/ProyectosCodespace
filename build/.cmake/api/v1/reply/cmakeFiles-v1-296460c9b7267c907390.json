@@ -192,6 +192,7 @@
 			"path" : "/usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake"
 		},
 		{
+<<<<<<< HEAD:build/.cmake/api/v1/reply/cmakeFiles-v1-bb0aa4ba337e8c70ae69.json
 <<<<<<<< HEAD:build/.cmake/api/v1/reply/cmakeFiles-v1-d03a9540e2d8389dcdcb.json
 			"path" : "ejemplo1/CMakeLists.txt"
 		},
@@ -201,6 +202,17 @@
 		{
 ========
 >>>>>>>> origin/CambiosJeffer:build/.cmake/api/v1/reply/cmakeFiles-v1-bb0aa4ba337e8c70ae69.json
+=======
+			"path" : "taller/CMakeLists.txt"
+		},
+		{
+			"path" : "taller3/CMakeLists.txt"
+		},
+		{
+			"path" : "ejemplo1/CMakeLists.txt"
+		},
+		{
+>>>>>>> origin/main:build/.cmake/api/v1/reply/cmakeFiles-v1-296460c9b7267c907390.json
 			"path" : "juegos/CMakeLists.txt"
 		}
 	],
