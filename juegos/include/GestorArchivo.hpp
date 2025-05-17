@@ -10,7 +10,7 @@ public:
   std::string rutaArchivo;
   GestorArchivo(std::string rutaArchivo);
   void guardarPartida(std::string &datos);
-  void cargarPartida();
+  void verHistorial();
   void eliminarPartida();
   void listarPartidas();
 };

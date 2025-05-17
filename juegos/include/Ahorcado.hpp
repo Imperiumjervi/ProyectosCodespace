@@ -15,6 +15,7 @@ public:
   Ahorcado(std::string jugador, bool esCPU, std::string jugadorGenerador);
   void iniciar() override;
 
+  int LeerPuntuacion();
   void setPalabrasDesdeArchivo(std::string rutaArchivo);
   void generarPalabraAleatoria();
   bool adivinarLetra(char letra);

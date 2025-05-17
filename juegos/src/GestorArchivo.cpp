@@ -29,7 +29,7 @@ void GestorArchivo::guardarPartida(std::string &datos) {
   }
 }
 
-void GestorArchivo::cargarPartida() {
+void GestorArchivo::verHistorial() {
   std::ifstream archivo(rutaArchivo);
   std::string linea;
 

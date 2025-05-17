@@ -11,7 +11,23 @@ Parejas::Parejas() : Juego("", 0, ""), filas(0), columnas(0) {}
 Parejas::Parejas(std::string jugador, int puntuacion, std::string fecha,int filas, int columnas)
     : Juego(jugador, puntuacion, fecha), filas(filas), columnas(columnas) {}
 
+
+  int Parejas::LeerPuntuacion() {
+  std::ifstream archivo("puntuacion.txt");
+  if (archivo.is_open()) {
+    archivo >> puntuacion;
+    archivo.close();
+  } else {
+    std::cerr << "No se pudo abrir el archivo de puntuacion." << std::endl;
+    puntuacion = 0; // Si no se puede abrir el archivo, se inicializa la puntuación a 0
+  }
+  return puntuacion;
+}
+    
 void Parejas::iniciar() {
+  nombreJuego = "Parejas";
+  std::cout << "Bienvenido al juego de Parejas!" << std::endl;
+  LeerPuntuacion();
   cargarSimbolosDesdeArchivo("simbolos.txt");
 
   bool descubiertas[4][4]{};

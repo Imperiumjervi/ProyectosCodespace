@@ -10,7 +10,20 @@ Ahorcado::Ahorcado(std::string jugador, bool esCPU, std::string jugadorGenerador
     : Juego(jugador, 0, ""), esCPU(esCPU), jugadorGenerador(jugadorGenerador) {
 }
 
+int Ahorcado::LeerPuntuacion() {
+  std::ifstream archivo("puntuacion.txt");
+  if (archivo.is_open()) {
+    archivo >> puntuacion;
+    archivo.close();
+  } else {
+    std::cerr << "No se pudo abrir el archivo de puntuacion." << std::endl;
+    puntuacion = 0; // Si no se puede abrir el archivo, se inicializa la puntuación a 0
+  }
+  return puntuacion;
+}
 void Ahorcado::iniciar() {
+  nombreJuego = "Ahorcado";
+  LeerPuntuacion();
   generarPalabraAleatoria();
   palabraAdivinada = std::string(palabraOculta.length(), '_');  
   std::cout << "Bienvenido al juego del Ahorcado!" << std::endl;
