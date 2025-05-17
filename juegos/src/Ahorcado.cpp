@@ -13,7 +13,7 @@ Ahorcado::Ahorcado(std::string jugador, int puntuacion, std::string fecha,
   intentosRestantes = 7;
 }
 
-/*int Ahorcado::leerPuntuacion() {
+int Ahorcado::leerPuntuacion() {
   std::ifstream archivo("puntuacion.txt");
   if (archivo.is_open()) {
     archivo >> puntuacion;
@@ -24,13 +24,12 @@ Ahorcado::Ahorcado(std::string jugador, int puntuacion, std::string fecha,
         0; // Si no se puede abrir el archivo, se inicializa la puntuación a 0
   }
   return puntuacion;
-}*/
+}
 
 void Ahorcado::iniciar() {
-  nombreJuego = "Ahorcado";
-  LeerPuntuacion();
+  // nombreJuego = "Ahorcado";
   generarPalabraAleatoria();
-  // leerPuntuacion();
+  leerPuntuacion();
   palabraAdivinada = std::string(palabraOculta.length(), '_');
   std::cout << "Bienvenido al juego del Ahorcado!" << std::endl;
   std::cout << "Palabra a adivinar: " << palabraAdivinada << std::endl;
@@ -93,8 +92,8 @@ void Ahorcado::generarPalabraAleatoria() {
       rd; // Se usa la libreria <random> para generar un numero aleatorio
   std::mt19937 gen(rd());
   std::uniform_int_distribution<> dis(
-      0, palabras.size() - 1); // Aqui se reemplaza el numero por el equivalete
-                               // a la cantidad de palabras
+      0, palabras.size() - 1); // Aqui se reemplaza el numero por el
+                               // equivalete a la cantidad de palabras
   std::string palabra = palabras[dis(gen)];
   palabraOculta = palabra; // Se asigna la palabra aleatoria a la variable
 }
@@ -113,7 +112,7 @@ bool Ahorcado::adivinarLetra(char letra) {
 }
 
 void Ahorcado::guardarResultado(std::string resultado) {
-  std::ofstream archivo("resultados_ahorcado.txt", std::ios::app);
+  std::ofstream archivo("resultados_generales.txt", std::ios::app);
   if (archivo.is_open()) {
     archivo << "Jugador: " << jugador << ", Resultado: " << resultado
             << ", Puntuacion: " << puntuacion << std::endl;

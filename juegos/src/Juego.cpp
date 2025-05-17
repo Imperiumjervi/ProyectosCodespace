@@ -15,6 +15,10 @@ Juego::~Juego() {
   // Destructor
 }
 
+/*void Juego::iniciar() {
+  std::cout << "Iniciando el juego: " << nombreJuego << std::endl;
+}*/
+
 void Juego::guardarResultado(std::string resultado) {
   std::ofstream archivo("resultados_generales.txt", std::ios::app);
   if (archivo.is_open()) {
