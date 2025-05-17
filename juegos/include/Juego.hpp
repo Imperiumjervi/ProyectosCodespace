@@ -13,9 +13,9 @@ public:
   Juego(std::string jugador, int puntuacion, std::string fecha);
   virtual ~Juego();
 
-  virtual void iniciar() = 0;
+  virtual void iniciar();
   virtual void guardarResultado(std::string resultado);
-  virtual void MostrarResultados() = 0;
+  virtual void MostrarResultados();
   std::string obtenerFechaActual();
   void Puntuacion();
   int LeerPuntuacion();
