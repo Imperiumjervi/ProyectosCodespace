@@ -16,7 +16,7 @@
 					],
 					"linkDirectories" : 
 					[
-						"/usr/lib64/gcc/x86_64-pc-linux-gnu/14.2.1",
+						"/usr/lib64/gcc/x86_64-pc-linux-gnu/15.1.1",
 						"/usr/lib64",
 						"/lib64",
 						"/lib",
@@ -50,16 +50,16 @@
 				{
 					"includeDirectories" : 
 					[
-						"/usr/include/c++/14.2.1",
-						"/usr/include/c++/14.2.1/x86_64-pc-linux-gnu",
-						"/usr/include/c++/14.2.1/backward",
+						"/usr/include/c++/15.1.1",
+						"/usr/include/c++/15.1.1/x86_64-pc-linux-gnu",
+						"/usr/include/c++/15.1.1/backward",
 						"/usr/lib/clang/19/include",
 						"/usr/local/include",
 						"/usr/include"
 					],
 					"linkDirectories" : 
 					[
-						"/usr/lib64/gcc/x86_64-pc-linux-gnu/14.2.1",
+						"/usr/lib64/gcc/x86_64-pc-linux-gnu/15.1.1",
 						"/usr/lib64",
 						"/lib64",
 						"/lib",

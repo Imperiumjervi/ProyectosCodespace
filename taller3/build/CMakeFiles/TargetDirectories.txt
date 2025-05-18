@@ -1,0 +1,3 @@
+/home/jeffer/Documentos/gitHub/CodespaceClases/taller3/build/CMakeFiles/taller3.dir
+/home/jeffer/Documentos/gitHub/CodespaceClases/taller3/build/CMakeFiles/edit_cache.dir
+/home/jeffer/Documentos/gitHub/CodespaceClases/taller3/build/CMakeFiles/rebuild_cache.dir

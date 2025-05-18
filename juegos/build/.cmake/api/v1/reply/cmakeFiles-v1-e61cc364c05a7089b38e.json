@@ -16,7 +16,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/4.0.1/CMakeSystem.cmake"
+			"path" : "build/CMakeFiles/4.0.2-dirty/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -290,7 +290,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/4.0.1/CMakeCCompiler.cmake"
+			"path" : "build/CMakeFiles/4.0.2-dirty/CMakeCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -544,7 +544,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/4.0.1/CMakeCXXCompiler.cmake"
+			"path" : "build/CMakeFiles/4.0.2-dirty/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -688,7 +688,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/4.0.1/CMakeCCompiler.cmake"
+			"path" : "build/CMakeFiles/4.0.2-dirty/CMakeCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -847,7 +847,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/4.0.1/CMakeCXXCompiler.cmake"
+			"path" : "build/CMakeFiles/4.0.2-dirty/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -893,8 +893,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1/build",
-		"source" : "/home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1"
+		"build" : "/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/build",
+		"source" : "/home/jeffer/Documentos/gitHub/CodespaceClases/juegos"
 	},
 	"version" : 
 	{

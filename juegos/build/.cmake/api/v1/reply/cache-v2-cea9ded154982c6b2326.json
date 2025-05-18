@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1/build"
+			"value" : "/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "1"
+			"value" : "2"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -587,7 +587,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1"
+			"value" : "/home/jeffer/Documentos/gitHub/CodespaceClases/juegos"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -899,7 +899,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "ejemplo1"
+			"value" : "juegos"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1198,7 +1198,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "ejemplo1_BINARY_DIR",
+			"name" : "juegos_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1207,10 +1207,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1/build"
+			"value" : "/home/jeffer/Documentos/gitHub/CodespaceClases/juegos/build"
 		},
 		{
-			"name" : "ejemplo1_IS_TOP_LEVEL",
+			"name" : "juegos_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1222,7 +1222,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "ejemplo1_SOURCE_DIR",
+			"name" : "juegos_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1231,7 +1231,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jeffer/Documentos/gitHub/CodespaceClases/ejemplo1"
+			"value" : "/home/jeffer/Documentos/gitHub/CodespaceClases/juegos"
 		}
 	],
 	"kind" : "cache",
