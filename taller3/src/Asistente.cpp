@@ -6,3 +6,6 @@ Asistente::Asistente(std::string nombre, std::string identificacion,
 
 void Asistente::registrarPrestamo(Material *material, Persona *persona) {}
 void Asistente::registrarDevolucion(Material *material, Persona *persona) {}
+void Asistente::setIdEmpleado(std::string idEmpleado) {
+  this->idEmpleado = idEmpleado;
+}

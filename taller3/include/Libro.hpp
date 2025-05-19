@@ -13,4 +13,10 @@ public:
 
   void mostrarInformacion() override;
   std::string getTipo() override;
+  void setIsbn(std::string isbn);
+  void setAutor(std::string autor);
+  void setCantidadPaginas(int paginas);
+  std::string getIsbn();
+  std::string getAutor();
+  int getCantidadPaginas();
 };

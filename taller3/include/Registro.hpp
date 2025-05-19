@@ -1,4 +1,6 @@
 #pragma once
+#include "Asistente.hpp"
+#include "Material.hpp"
 
 #include <string>
 class Registro {

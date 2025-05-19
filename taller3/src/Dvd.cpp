@@ -15,3 +15,9 @@ void Dvd::mostrarInformacion() {
 }
 
 std::string Dvd::getTipo() { return "Dvd"; }
+void Dvd::setId(std::string id) { this->id = id; }
+void Dvd::setDirector(std::string director) { this->director = director; }
+void Dvd::setDuracion(std::string duracion) { this->duracion = duracion; }
+std::string Dvd::getId() { return id; }
+std::string Dvd::getDirector() { return director; }
+std::string Dvd::getDuracion() { return duracion; }

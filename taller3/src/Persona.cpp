@@ -10,3 +10,14 @@ void Persona::decrementarPrestamos() {
     prestamosActivos--;
   }
 }
+
+void Persona::setNombre(std::string nombre) { this->nombre = nombre; }
+void Persona::setIdentificacion(std::string identificacion) {
+  this->identificacion = identificacion;
+}
+void Persona::setPrestamosActivos(int prestamosActivos) {
+  this->prestamosActivos = prestamosActivos;
+}
+std::string Persona::getNombre() { return nombre; }
+std::string Persona::getIdentificacion() { return identificacion; }
+int Persona::getPrestamosActivos() { return prestamosActivos; }

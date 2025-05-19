@@ -15,3 +15,10 @@ void Libro::mostrarInformacion() {
 }
 
 std::string Libro::getTipo() { return "Libro"; }
+
+void Libro::setIsbn(std::string isbn) { this->isbn = isbn; }
+void Libro::setAutor(std::string autor) { this->autor = autor; }
+void Libro::setCantidadPaginas(int paginas) { this->cantidadPaginas = paginas; }
+std::string Libro::getIsbn() { return isbn; }
+std::string Libro::getAutor() { return autor; }
+int Libro::getCantidadPaginas() { return cantidadPaginas; }

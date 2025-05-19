@@ -11,4 +11,11 @@ public:
   bool puedePrestar();
   void incrementarPrestamos();
   void decrementarPrestamos();
+
+  void setNombre(std::string nombre);
+  void setIdentificacion(std::string identificacion);
+  void setPrestamosActivos(int prestamosActivos);
+  std::string getNombre();
+  std::string getIdentificacion();
+  int getPrestamosActivos();
 };

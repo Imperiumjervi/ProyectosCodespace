@@ -13,4 +13,10 @@ public:
 
   void mostrarInformacion() override;
   std::string getTipo() override;
+  void setId(std::string id);
+  void setDirector(std::string director);
+  void setDuracion(std::string duracion);
+  std::string getId();
+  std::string getDirector();
+  std::string getDuracion();
 };

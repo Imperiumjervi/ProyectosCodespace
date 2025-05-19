@@ -13,4 +13,11 @@ public:
 
   void mostrarInformacion() override;
   std::string getTipo() override;
+
+  void setId(std::string id);
+  void setTematica(std::string tematica);
+  void setEdicion(std::string edicion);
+  std::string getId();
+  std::string getTematica();
+  std::string getEdicion();
 };
