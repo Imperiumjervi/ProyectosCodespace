@@ -13,4 +13,4 @@ void Revista::mostrarInformacion() {
             << "Disponible: " << (disponible ? "Si" : "No") << std::endl;
 }
 
-std::string Revista::getTipo() {}
+std::string Revista::getTipo() { return "Revista"; }
