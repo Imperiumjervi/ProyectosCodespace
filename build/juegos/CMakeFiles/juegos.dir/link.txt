@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/juegos.dir/link.d CMakeFiles/juegos.dir/main.cpp.o CMakeFiles/juegos.dir/src/Ahorcado.cpp.o CMakeFiles/juegos.dir/src/GestorArchivo.cpp.o CMakeFiles/juegos.dir/src/Juego.cpp.o CMakeFiles/juegos.dir/src/MenuPrincipal.cpp.o CMakeFiles/juegos.dir/src/Parejas.cpp.o -o ../bin/juegos

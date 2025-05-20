@@ -25,6 +25,20 @@
       "miDebuggerPath": "/usr/bin/gdb",
       "preLaunchTask": "Build taller"
     },
+
+    {
+      "name": "Debug taller3",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/bin/taller3",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "preLaunchTask": "Build taller3"
+    },
+
     {
       "name": "Debug Juegos", 
       "type": "cppdbg",

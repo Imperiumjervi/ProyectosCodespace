@@ -36,6 +36,20 @@
       "problemMatcher": ["$gcc"],
       "dependsOn": "CMake: Configure"
     },
+
+    {
+      "label": "Build taller3",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build", "${workspaceFolder}/build",
+        "--target", "taller3"
+      ],
+      "group": "build",
+      "problemMatcher": ["$gcc"],
+      "dependsOn": "CMake: Configure"
+    },
+
     {
       "label": "Build Juegos",
       "type": "shell",
