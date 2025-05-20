@@ -4,14 +4,17 @@
 Libro::Libro(std::string titulo, std::string genero, std::string isbn,
              std::string autor, int paginas)
     : Material(titulo, genero), isbn(isbn), autor(autor),
-      cantidadPaginas(paginas) {}
+      cantidadPaginas(paginas) {
+  disponible = true;
+}
 
 void Libro::mostrarInformacion() {
   std::cout << "Titulo: " << titulo << "\n"
             << "Genero: " << genero << "\n"
             << "ISBN: " << isbn << "\n"
             << "Autor: " << autor << "\n"
-            << "Cantidad de Paginas: " << cantidadPaginas << "\n";
+            << "Cantidad de Paginas: " << cantidadPaginas << "\n"
+            << "Disponible: " << (disponible ? "Si" : "No") << "\n";
 }
 
 std::string Libro::getTipo() { return "Libro"; }

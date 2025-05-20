@@ -11,4 +11,5 @@ public:
   void registrarPrestamo(Material *material, Persona *persona);
   void registrarDevolucion(Material *material, Persona *persona);
   void setIdEmpleado(std::string idEmpleado);
+  std::string getIdEmpleado();
 };

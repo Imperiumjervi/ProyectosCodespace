@@ -4,6 +4,7 @@
 Dvd::Dvd(std::string titulo, std::string genero, std::string id,
          std::string director, std::string duracion)
     : Material(titulo, genero), id(id), director(director), duracion(duracion) {
+  disponible = true;
 }
 
 void Dvd::mostrarInformacion() {
@@ -11,7 +12,8 @@ void Dvd::mostrarInformacion() {
             << "Genero: " << genero << "\n"
             << "ID: " << id << "\n"
             << "Director: " << director << "\n"
-            << "Duracion: " << duracion << "\n";
+            << "Duracion: " << duracion << "\n"
+            << "Disponible: " << (disponible ? "Si" : "No") << "\n";
 }
 
 std::string Dvd::getTipo() { return "Dvd"; }

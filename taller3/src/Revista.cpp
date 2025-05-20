@@ -3,7 +3,9 @@
 
 Revista::Revista(std::string nombre, std::string tematica, std::string edicion,
                  std::string id)
-    : Material(nombre, tematica), edicion(edicion), id(id) {}
+    : Material(nombre, tematica), edicion(edicion), id(id) {
+  disponible = true;
+}
 
 void Revista::mostrarInformacion() {
   std::cout << "Revista: " << titulo << "\n"
