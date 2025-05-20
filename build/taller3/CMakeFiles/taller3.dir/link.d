@@ -4,6 +4,7 @@
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtbeginS.o \
   CMakeFiles/taller3.dir/main.cpp.o \
   CMakeFiles/taller3.dir/src/Asistente.cpp.o \
+  CMakeFiles/taller3.dir/src/CargarMaterial.cpp.o \
   CMakeFiles/taller3.dir/src/Dvd.cpp.o \
   CMakeFiles/taller3.dir/src/Libro.cpp.o \
   CMakeFiles/taller3.dir/src/Material.cpp.o \
@@ -47,6 +48,8 @@
 CMakeFiles/taller3.dir/main.cpp.o:
 
 CMakeFiles/taller3.dir/src/Asistente.cpp.o:
+
+CMakeFiles/taller3.dir/src/CargarMaterial.cpp.o:
 
 CMakeFiles/taller3.dir/src/Dvd.cpp.o:
 

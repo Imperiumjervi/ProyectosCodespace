@@ -1,8 +1,8 @@
-taller3/CMakeFiles/taller3.dir/main.cpp.o: \
- /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/main.cpp \
+taller3/CMakeFiles/taller3.dir/src/CargarMaterial.cpp.o: \
+ /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/CargarMaterial.cpp \
  /usr/include/stdc-predef.h \
- /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/include/Asistente.hpp \
- /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/include/Material.hpp \
+ /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/../include/CargarMaterial.hpp \
+ /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/../include/Material.hpp \
  /usr/include/c++/15.1.1/string \
  /usr/include/c++/15.1.1/bits/requires_hosted.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -105,20 +105,16 @@ taller3/CMakeFiles/taller3.dir/main.cpp.o: \
  /usr/include/c++/15.1.1/cstddef \
  /usr/include/c++/15.1.1/bits/uses_allocator.h \
  /usr/include/c++/15.1.1/bits/uses_allocator_args.h \
- /usr/include/c++/15.1.1/tuple \
- /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/include/Persona.hpp \
- /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/include/CargarMaterial.hpp \
- /usr/include/c++/15.1.1/vector \
+ /usr/include/c++/15.1.1/tuple /usr/include/c++/15.1.1/vector \
  /usr/include/c++/15.1.1/bits/stl_uninitialized.h \
  /usr/include/c++/15.1.1/bits/stl_vector.h \
  /usr/include/c++/15.1.1/bits/stl_bvector.h \
  /usr/include/c++/15.1.1/bits/vector.tcc \
- /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/include/Dvd.hpp \
- /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/include/Libro.hpp \
- /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/include/Revista.hpp \
- /usr/include/c++/15.1.1/iostream /usr/include/c++/15.1.1/ostream \
- /usr/include/c++/15.1.1/bits/ostream.h /usr/include/c++/15.1.1/ios \
- /usr/include/c++/15.1.1/exception \
+ /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/../include/Dvd.hpp \
+ /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/../include/Libro.hpp \
+ /home/jeffer/Documentos/gitHub/CodespaceClases/taller3/src/../include/Revista.hpp \
+ /usr/include/c++/15.1.1/fstream /usr/include/c++/15.1.1/istream \
+ /usr/include/c++/15.1.1/ios /usr/include/c++/15.1.1/exception \
  /usr/include/c++/15.1.1/bits/exception_ptr.h \
  /usr/include/c++/15.1.1/bits/cxxabi_init_exception.h \
  /usr/include/c++/15.1.1/typeinfo \
@@ -157,5 +153,12 @@ taller3/CMakeFiles/taller3.dir/main.cpp.o: \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
  /usr/include/c++/15.1.1/bits/locale_facets.tcc \
  /usr/include/c++/15.1.1/bits/basic_ios.tcc \
- /usr/include/c++/15.1.1/bits/ostream.tcc /usr/include/c++/15.1.1/istream \
- /usr/include/c++/15.1.1/bits/istream.tcc
+ /usr/include/c++/15.1.1/ostream /usr/include/c++/15.1.1/bits/ostream.h \
+ /usr/include/c++/15.1.1/bits/ostream.tcc \
+ /usr/include/c++/15.1.1/bits/istream.tcc \
+ /usr/include/c++/15.1.1/bits/codecvt.h \
+ /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++io.h \
+ /usr/include/c++/15.1.1/bits/fstream.tcc \
+ /usr/include/c++/15.1.1/iostream /usr/include/c++/15.1.1/sstream \
+ /usr/include/c++/15.1.1/bits/sstream.tcc

@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/taller3.dir/main.cpp.o.d"
   "CMakeFiles/taller3.dir/src/Asistente.cpp.o"
   "CMakeFiles/taller3.dir/src/Asistente.cpp.o.d"
+  "CMakeFiles/taller3.dir/src/CargarMaterial.cpp.o"
+  "CMakeFiles/taller3.dir/src/CargarMaterial.cpp.o.d"
   "CMakeFiles/taller3.dir/src/Dvd.cpp.o"
   "CMakeFiles/taller3.dir/src/Dvd.cpp.o.d"
   "CMakeFiles/taller3.dir/src/Libro.cpp.o"

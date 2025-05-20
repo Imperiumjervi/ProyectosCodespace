@@ -178,6 +178,30 @@ src/Asistente.cpp.s:
 	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/Asistente.cpp.s
 .PHONY : src/Asistente.cpp.s
 
+src/CargarMaterial.o: src/CargarMaterial.cpp.o
+.PHONY : src/CargarMaterial.o
+
+# target to build an object file
+src/CargarMaterial.cpp.o:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/CargarMaterial.cpp.o
+.PHONY : src/CargarMaterial.cpp.o
+
+src/CargarMaterial.i: src/CargarMaterial.cpp.i
+.PHONY : src/CargarMaterial.i
+
+# target to preprocess a source file
+src/CargarMaterial.cpp.i:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/CargarMaterial.cpp.i
+.PHONY : src/CargarMaterial.cpp.i
+
+src/CargarMaterial.s: src/CargarMaterial.cpp.s
+.PHONY : src/CargarMaterial.s
+
+# target to generate assembly for a file
+src/CargarMaterial.cpp.s:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/src/CargarMaterial.cpp.s
+.PHONY : src/CargarMaterial.cpp.s
+
 src/Dvd.o: src/Dvd.cpp.o
 .PHONY : src/Dvd.o
 
@@ -337,6 +361,9 @@ help:
 	@echo "... src/Asistente.o"
 	@echo "... src/Asistente.i"
 	@echo "... src/Asistente.s"
+	@echo "... src/CargarMaterial.o"
+	@echo "... src/CargarMaterial.i"
+	@echo "... src/CargarMaterial.s"
 	@echo "... src/Dvd.o"
 	@echo "... src/Dvd.i"
 	@echo "... src/Dvd.s"
