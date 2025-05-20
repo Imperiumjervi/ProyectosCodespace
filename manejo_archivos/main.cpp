@@ -1,9 +1,18 @@
 #include "include/Solution.hpp"
 #include <iostream>
+#include <fstream>
+
+using namespace std;
 
 int main() {
 
-  Solution obj;
-  obj.saludar();
+  ifstream archivo("notas.txt");
+  string registro;
+
+  while(getline(archivo, registro)){
+    cout <<registro<<endl;
+  }
+
+  archivo.close();
   return 0;
 }
