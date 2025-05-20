@@ -63,6 +63,20 @@
       "MIMode": "gdb",
       "miDebuggerPath": "/usr/bin/gdb",
       "preLaunchTask": "Build Parcial"
+    },
+
+    {
+      "name": "Debug Manejo_archivos",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/build/bin/manejo_archivos",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "preLaunchTask": "Build Manejo_archivos",
+
     }
   ]
 }

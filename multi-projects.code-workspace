@@ -4,7 +4,8 @@
     { "name": "Taller",   "path": "taller"},
     { "name": "Taller3",  "path": "taller3"},
     { "name": "Juegos",   "path": "juegos"},
-    { "name": "Parcial",  "path": "parcial"}
+    { "name": "Parcial",  "path": "parcial"},
+    { "name": "Manejo_archivos", "path": "manejo_archivos"}
   ],
   "settings": {
     "cmake.sourceDirectory": "${workspaceFolder}"
