@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/parcial.dir/link.d CMakeFiles/parcial.dir/main.cpp.o CMakeFiles/parcial.dir/src/clasepordefecto.cpp.o -o ../bin/parcial

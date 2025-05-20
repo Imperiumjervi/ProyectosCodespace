@@ -1,5 +1,5 @@
-
 #include "include/Asistente.hpp"
+#include "include/CargarMaterial.hpp"
 #include "include/Dvd.hpp"
 #include "include/Libro.hpp"
 #include "include/Material.hpp"
@@ -8,24 +8,17 @@
 #include <iostream>
 #include <vector>
 
-// Declaraciones de carga desde archivo
-std::vector<Material *> cargarLibrosDesdeArchivo(const std::string &ruta);
-std::vector<Material *> cargarDVDsDesdeArchivo(const std::string &ruta);
-std::vector<Material *> cargarRevistasDesdeArchivo(const std::string &ruta);
-
 int main() {
-  // Cargar materiales desde archivos
   std::vector<Material *> materiales;
 
-  auto libros = cargarLibrosDesdeArchivo("libros.txt");
-  auto dvds = cargarDVDsDesdeArchivo("DVDs.txt");
-  auto revistas = cargarRevistasDesdeArchivo("Revistas.txt");
+  auto libros = CargadorMateriales::cargarLibros("libros.txt");
+  auto dvds = CargadorMateriales::cargarDVDs("DVDs.txt");
+  auto revistas = CargadorMateriales::cargarRevistas("Revistas.txt");
 
   materiales.insert(materiales.end(), libros.begin(), libros.end());
   materiales.insert(materiales.end(), dvds.begin(), dvds.end());
   materiales.insert(materiales.end(), revistas.begin(), revistas.end());
 
-  // Crear persona y asistente
   Persona *usuario = new Persona("Juan Pérez", "123456");
   Asistente *asistente = new Asistente("María López", "999999", "EMP001");
 
