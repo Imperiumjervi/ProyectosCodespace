@@ -1,0 +1,33 @@
+REV001 - National Geographic - Ciencia y naturaleza - 202
+REV002 - Time - Actualidad - 305
+REV003 - Scientific American - Ciencia - 412
+REV004 - The Economist - Economía - 198
+REV005 - Nature - Ciencia - 489
+REV006 - Rolling Stone - Música - 250
+REV007 - Wired - Tecnología - 330
+REV008 - Forbes - Negocios - 275
+REV009 - Popular Science - Ciencia y tecnología - 310
+REV010 - Discover - Ciencia - 290
+REV011 - The New Yorker - Cultura - 215
+REV012 - Vanity Fair - Moda y sociedad - 180
+REV013 - Harper's Bazaar - Moda - 165
+REV014 - Vogue - Moda - 320
+REV015 - Elle - Moda - 290
+REV016 - Cosmopolitan - Estilo de vida - 310
+REV017 - Men's Health - Salud - 200
+REV018 - Women's Health - Salud - 190
+REV019 - Sports Illustrated - Deportes - 260
+REV020 - PC World - Tecnología - 240
+REV021 - Macworld - Tecnología - 230
+REV022 - Linux Journal - Tecnología - 210
+REV023 - Psychology Today - Psicología - 195
+REV024 - Scientific American Mind - Psicología - 180
+REV025 - Smithsonian - Historia y ciencia - 220
+REV026 - National Geographic Traveler - Viajes - 205
+REV027 - Travel + Leisure - Viajes - 215
+REV028 - Conde Nast Traveler - Viajes - 225
+REV029 - Food & Wine - Gastronomía - 190
+REV030 - Bon Appétit - Gastronomía - 185
+REV031 - Architectural Digest - Arquitectura - 200
+REV032 - Artforum - Arte - 175
+REV033 - Juxtapoz - Arte - 160
