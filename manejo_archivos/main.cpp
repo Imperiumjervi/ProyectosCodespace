@@ -1,12 +1,11 @@
 #include "include/Solution.hpp"
-#include <iostream>
 #include <fstream>
+#include <iostream>
 #include <vector>
 
 using namespace std;
 
-
-vector <Estudiante> separarCadena(string texto);
+vector<Estudiante> separarCadena(string texto);
 
 int main() {
 
@@ -15,7 +14,7 @@ int main() {
   string registro;
   vector<string> registros;
 
-  while(getline(archivo, registro)){
+  while (getline(archivo, registro)) {
     registros.push_back(registro);
   }
   separarCadena(registro);
@@ -26,30 +25,30 @@ int main() {
   return 0;
 }
 
-vector <Estudiante> separarCadena(string texto) {
+vector<Estudiante> separarCadena(string texto) {
   char delimitador = '-';
-  //string nombre;
-  //float notas[3];
-  //float adicional;
-  //int contador = 0;
+  // string nombre;
+  // float notas[3];
+  // float adicional;
+  // int contador = 0;
   string auxiliar = "";
 
   vector<string> contenido;
 
-  for(int i = 0; 0 < texto.size(); i++) {
-    if(i+1 == texto.size()){
+  for (int i = 0; 0 < texto.size(); i++) {
+    if (i + 1 == texto.size()) {
       contenido.push_back(auxiliar);
       cout << auxiliar << endl;
       auxiliar = "";
     } else {
-      if(texto[i] != delimitador){
+      if (texto[i] != delimitador) {
         auxiliar += texto[i];
-      }else {
+      } else {
         contenido.push_back(auxiliar);
         cout << auxiliar << endl;
         auxiliar = "";
       }
     }
-    
   }
+  return contenido;
 }

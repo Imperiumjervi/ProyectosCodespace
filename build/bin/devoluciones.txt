@@ -1,0 +1,10 @@
+Operacion: Devolucion
+Material: El señor de los anillos: La comunidad del anillo 
+Persona: Juan Pérez
+Asistente: María López
+------------------------
+Operacion: Devolucion
+Material: El señor de los anillos: La comunidad del anillo 
+Persona: Juan Pérez
+Asistente: María López
+------------------------
