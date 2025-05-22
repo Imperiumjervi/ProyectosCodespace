@@ -181,6 +181,19 @@ parcial/fast:
 	$(MAKE) $(MAKESILENT) -f parcial/CMakeFiles/parcial.dir/build.make parcial/CMakeFiles/parcial.dir/build
 .PHONY : parcial/fast
 
+#=============================================================================
+# Target rules for targets named manejo_archivos
+
+# Build rule for target.
+manejo_archivos: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 manejo_archivos
+.PHONY : manejo_archivos
+
+# fast build rule for target.
+manejo_archivos/fast:
+	$(MAKE) $(MAKESILENT) -f manejo_archivos/CMakeFiles/manejo_archivos.dir/build.make manejo_archivos/CMakeFiles/manejo_archivos.dir/build
+.PHONY : manejo_archivos/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -191,6 +204,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ejemplo1"
 	@echo "... juegos"
+	@echo "... manejo_archivos"
 	@echo "... parcial"
 	@echo "... taller"
 	@echo "... taller3"

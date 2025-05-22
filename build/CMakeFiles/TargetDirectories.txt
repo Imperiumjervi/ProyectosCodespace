@@ -15,3 +15,6 @@
 /home/jeffer/Documentos/gitHub/CodespaceClases/build/parcial/CMakeFiles/parcial.dir
 /home/jeffer/Documentos/gitHub/CodespaceClases/build/parcial/CMakeFiles/edit_cache.dir
 /home/jeffer/Documentos/gitHub/CodespaceClases/build/parcial/CMakeFiles/rebuild_cache.dir
+/home/jeffer/Documentos/gitHub/CodespaceClases/build/manejo_archivos/CMakeFiles/manejo_archivos.dir
+/home/jeffer/Documentos/gitHub/CodespaceClases/build/manejo_archivos/CMakeFiles/edit_cache.dir
+/home/jeffer/Documentos/gitHub/CodespaceClases/build/manejo_archivos/CMakeFiles/rebuild_cache.dir

@@ -8,3 +8,8 @@ Material: El señor de los anillos: La comunidad del anillo
 Persona: Juan Pérez
 Asistente: María López
 ------------------------
+Operacion: Prestamo
+Material: El Hobbit 
+Persona: Juan Perez
+Asistente: Maria Lopez
+------------------------

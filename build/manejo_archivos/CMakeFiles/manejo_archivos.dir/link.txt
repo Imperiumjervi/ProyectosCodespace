@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/manejo_archivos.dir/link.d CMakeFiles/manejo_archivos.dir/main.cpp.o CMakeFiles/manejo_archivos.dir/src/Solution.cpp.o -o ../bin/manejo_archivos

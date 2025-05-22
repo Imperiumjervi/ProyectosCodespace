@@ -68,6 +68,7 @@ all: taller3/all
 all: ejemplo1/all
 all: juegos/all
 all: parcial/all
+all: manejo_archivos/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -76,6 +77,7 @@ codegen: taller3/codegen
 codegen: ejemplo1/codegen
 codegen: juegos/codegen
 codegen: parcial/codegen
+codegen: manejo_archivos/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -84,6 +86,7 @@ preinstall: taller3/preinstall
 preinstall: ejemplo1/preinstall
 preinstall: juegos/preinstall
 preinstall: parcial/preinstall
+preinstall: manejo_archivos/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -92,6 +95,7 @@ clean: taller3/clean
 clean: ejemplo1/clean
 clean: juegos/clean
 clean: parcial/clean
+clean: manejo_archivos/clean
 .PHONY : clean
 
 #=============================================================================
@@ -131,6 +135,25 @@ juegos/preinstall:
 # Recursive "clean" directory target.
 juegos/clean: juegos/CMakeFiles/juegos.dir/clean
 .PHONY : juegos/clean
+
+#=============================================================================
+# Directory level rules for directory manejo_archivos
+
+# Recursive "all" directory target.
+manejo_archivos/all: manejo_archivos/CMakeFiles/manejo_archivos.dir/all
+.PHONY : manejo_archivos/all
+
+# Recursive "codegen" directory target.
+manejo_archivos/codegen: manejo_archivos/CMakeFiles/manejo_archivos.dir/codegen
+.PHONY : manejo_archivos/codegen
+
+# Recursive "preinstall" directory target.
+manejo_archivos/preinstall:
+.PHONY : manejo_archivos/preinstall
+
+# Recursive "clean" directory target.
+manejo_archivos/clean: manejo_archivos/CMakeFiles/manejo_archivos.dir/clean
+.PHONY : manejo_archivos/clean
 
 #=============================================================================
 # Directory level rules for directory parcial
@@ -196,7 +219,7 @@ taller3/clean: taller3/CMakeFiles/taller3.dir/clean
 taller/CMakeFiles/taller.dir/all:
 	$(MAKE) $(MAKESILENT) -f taller/CMakeFiles/taller.dir/build.make taller/CMakeFiles/taller.dir/depend
 	$(MAKE) $(MAKESILENT) -f taller/CMakeFiles/taller.dir/build.make taller/CMakeFiles/taller.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=14,15,16,17 "Built target taller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=17,18,19,20 "Built target taller"
 .PHONY : taller/CMakeFiles/taller.dir/all
 
 # Build rule for subdir invocation for target.
@@ -213,7 +236,7 @@ taller: taller/CMakeFiles/taller.dir/rule
 # codegen rule for target.
 taller/CMakeFiles/taller.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f taller/CMakeFiles/taller.dir/build.make taller/CMakeFiles/taller.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=14,15,16,17 "Finished codegen for target taller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=17,18,19,20 "Finished codegen for target taller"
 .PHONY : taller/CMakeFiles/taller.dir/codegen
 
 # clean rule for target.
@@ -228,7 +251,7 @@ taller/CMakeFiles/taller.dir/clean:
 taller3/CMakeFiles/taller3.dir/all:
 	$(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/depend
 	$(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=18,19,20,21,22,23,24,25,26,27 "Built target taller3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=21,22,23,24,25,26,27,28,29,30 "Built target taller3"
 .PHONY : taller3/CMakeFiles/taller3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -245,7 +268,7 @@ taller3: taller3/CMakeFiles/taller3.dir/rule
 # codegen rule for target.
 taller3/CMakeFiles/taller3.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f taller3/CMakeFiles/taller3.dir/build.make taller3/CMakeFiles/taller3.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=18,19,20,21,22,23,24,25,26,27 "Finished codegen for target taller3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=21,22,23,24,25,26,27,28,29,30 "Finished codegen for target taller3"
 .PHONY : taller3/CMakeFiles/taller3.dir/codegen
 
 # clean rule for target.
@@ -324,7 +347,7 @@ juegos/CMakeFiles/juegos.dir/clean:
 parcial/CMakeFiles/parcial.dir/all:
 	$(MAKE) $(MAKESILENT) -f parcial/CMakeFiles/parcial.dir/build.make parcial/CMakeFiles/parcial.dir/depend
 	$(MAKE) $(MAKESILENT) -f parcial/CMakeFiles/parcial.dir/build.make parcial/CMakeFiles/parcial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=11,12,13 "Built target parcial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=14,15,16 "Built target parcial"
 .PHONY : parcial/CMakeFiles/parcial.dir/all
 
 # Build rule for subdir invocation for target.
@@ -341,13 +364,45 @@ parcial: parcial/CMakeFiles/parcial.dir/rule
 # codegen rule for target.
 parcial/CMakeFiles/parcial.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f parcial/CMakeFiles/parcial.dir/build.make parcial/CMakeFiles/parcial.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=11,12,13 "Finished codegen for target parcial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=14,15,16 "Finished codegen for target parcial"
 .PHONY : parcial/CMakeFiles/parcial.dir/codegen
 
 # clean rule for target.
 parcial/CMakeFiles/parcial.dir/clean:
 	$(MAKE) $(MAKESILENT) -f parcial/CMakeFiles/parcial.dir/build.make parcial/CMakeFiles/parcial.dir/clean
 .PHONY : parcial/CMakeFiles/parcial.dir/clean
+
+#=============================================================================
+# Target rules for target manejo_archivos/CMakeFiles/manejo_archivos.dir
+
+# All Build rule for target.
+manejo_archivos/CMakeFiles/manejo_archivos.dir/all:
+	$(MAKE) $(MAKESILENT) -f manejo_archivos/CMakeFiles/manejo_archivos.dir/build.make manejo_archivos/CMakeFiles/manejo_archivos.dir/depend
+	$(MAKE) $(MAKESILENT) -f manejo_archivos/CMakeFiles/manejo_archivos.dir/build.make manejo_archivos/CMakeFiles/manejo_archivos.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=11,12,13 "Built target manejo_archivos"
+.PHONY : manejo_archivos/CMakeFiles/manejo_archivos.dir/all
+
+# Build rule for subdir invocation for target.
+manejo_archivos/CMakeFiles/manejo_archivos.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 manejo_archivos/CMakeFiles/manejo_archivos.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles 0
+.PHONY : manejo_archivos/CMakeFiles/manejo_archivos.dir/rule
+
+# Convenience name for target.
+manejo_archivos: manejo_archivos/CMakeFiles/manejo_archivos.dir/rule
+.PHONY : manejo_archivos
+
+# codegen rule for target.
+manejo_archivos/CMakeFiles/manejo_archivos.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f manejo_archivos/CMakeFiles/manejo_archivos.dir/build.make manejo_archivos/CMakeFiles/manejo_archivos.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=11,12,13 "Finished codegen for target manejo_archivos"
+.PHONY : manejo_archivos/CMakeFiles/manejo_archivos.dir/codegen
+
+# clean rule for target.
+manejo_archivos/CMakeFiles/manejo_archivos.dir/clean:
+	$(MAKE) $(MAKESILENT) -f manejo_archivos/CMakeFiles/manejo_archivos.dir/build.make manejo_archivos/CMakeFiles/manejo_archivos.dir/clean
+.PHONY : manejo_archivos/CMakeFiles/manejo_archivos.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
