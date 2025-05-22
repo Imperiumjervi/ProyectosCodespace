@@ -11,34 +11,85 @@
 int main() {
   std::vector<Material *> materiales;
 
-  auto libros = CargadorMateriales::cargarLibros("libros.txt");
-  auto dvds = CargadorMateriales::cargarDVDs("DVDs.txt");
-  auto revistas = CargadorMateriales::cargarRevistas("Revistas.txt");
+  std::vector<Material *> libros =
+      CargadorMateriales::cargarLibros("libros.txt");
+  std::vector<Material *> dvds = CargadorMateriales::cargarDVDs("DVDs.txt");
+  std::vector<Material *> revistas =
+      CargadorMateriales::cargarRevistas("Revistas.txt");
 
-  materiales.insert(materiales.end(), libros.begin(), libros.end());
-  materiales.insert(materiales.end(), dvds.begin(), dvds.end());
-  materiales.insert(materiales.end(), revistas.begin(), revistas.end());
-
-  Persona *usuario = new Persona("Juan Pérez", "123456");
-  Asistente *asistente = new Asistente("María López", "999999", "EMP001");
-
-  std::cout << "Cargando materiales:\n";
-  for (Material *m : materiales) {
-    m->mostrarInformacion();
-    std::cout << "-----------------------\n";
+  for (int i = 0; i < libros.size(); i++) {
+    materiales.push_back(libros[i]);
+  }
+  for (int i = 0; i < dvds.size(); i++) {
+    materiales.push_back(dvds[i]);
+  }
+  for (int i = 0; i < revistas.size(); i++) {
+    materiales.push_back(revistas[i]);
   }
 
-  std::cout << "Realizando prestamo y devolucion...\n";
-  for (Material *m : materiales) {
-    if (m->getDisponible()) {
-      asistente->registrarPrestamo(m, usuario);
-      asistente->registrarDevolucion(m, usuario);
-      break;
+  Persona *usuario = new Persona("Juan Perez", "123456");
+  Asistente *asistente = new Asistente("Maria Lopez", "999999", "EMP001");
+
+  int opcion = 0;
+
+  while (opcion != 4) {
+    std::cout << "\n===== MENU =====\n";
+    std::cout << "1. Ver materiales\n";
+    std::cout << "2. Registrar prestamo\n";
+    std::cout << "3. Registrar devolucion\n";
+    std::cout << "4. Salir\n";
+    std::cout << "Seleccione una opcion: ";
+    std::cin >> opcion;
+
+    if (opcion == 1) {
+      for (int i = 0; i < materiales.size(); i++) {
+        std::cout << "[" << i << "] ";
+        materiales[i]->mostrarInformacion();
+        std::cout << "-----------------------\n";
+      }
+    } else if (opcion == 2) {
+      int indice;
+      std::cout << "Ingrese el indice del material a prestar: ";
+      std::cin >> indice;
+
+      if (indice >= 0 && indice < materiales.size()) {
+        if (!materiales[indice]->getDisponible()) {
+          std::cout << "El material no esta disponible.\n";
+        } else if (!usuario->puedePrestar()) {
+          std::cout << "El usuario ya tiene 3 prestamos activos.\n";
+        } else {
+          asistente->registrarPrestamo(materiales[indice], usuario);
+          std::cout << "Prestamo registrado.\n";
+        }
+      } else {
+        std::cout << "Indice invalido.\n";
+      }
+
+    } else if (opcion == 3) {
+      int indice;
+      std::cout << "Ingrese el indice del material a devolver: ";
+      std::cin >> indice;
+
+      if (indice >= 0 && indice < materiales.size()) {
+        if (materiales[indice]->getDisponible()) {
+          std::cout << "Ese material ya esta disponible.\n";
+        } else {
+          asistente->registrarDevolucion(materiales[indice], usuario);
+          std::cout << "Devolucion registrada.\n";
+        }
+      } else {
+        std::cout << "Indice invalido.\n";
+      }
+
+    } else if (opcion == 4) {
+      std::cout << "Saliendo del sistema...\n";
+    } else {
+      std::cout << "Opcion no valida.\n";
     }
   }
 
-  for (Material *m : materiales) {
-    delete m;
+  for (int i = 0; i < materiales.size(); i++) {
+    delete materiales[i];
   }
   delete usuario;
   delete asistente;
