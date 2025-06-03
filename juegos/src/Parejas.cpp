@@ -1,6 +1,6 @@
 #include "Parejas.hpp"
 #include "Juego.hpp"
-#include <algorithm>
+//#include <algorithm>
 #include <fstream>
 #include <iostream>
 #include <random>
@@ -100,7 +100,8 @@ void Parejas::cargarSimbolosDesdeArchivo(const std::string &rutaArchivo) {
   // mezclarTablero
   std::random_device rd;
   std::mt19937 gen(rd());
-  std::shuffle(pares.begin(), pares.end(), gen);
+  //std::shuffle(pares.begin(), pares.end(), gen);
+  
 
   // Llenar tablero
   int k = 0;
