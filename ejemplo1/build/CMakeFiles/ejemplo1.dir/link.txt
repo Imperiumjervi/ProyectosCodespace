@@ -1,0 +1,1 @@
+/usr/bin/clang++  -g   CMakeFiles/ejemplo1.dir/main.cpp.o CMakeFiles/ejemplo1.dir/src/Solution.cpp.o  -o ejemplo1 

@@ -77,6 +77,22 @@
       "miDebuggerPath": "/usr/bin/gdb",
       "preLaunchTask": "Build Manejo_archivos",
 
-    }
+    },
+
+    {
+      "name": "Debug Parcialmateo",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/bin/parcialmateo",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "preLaunchTask": "Build Parcialmateo"
+    },
+
+
+    
   ]
 }

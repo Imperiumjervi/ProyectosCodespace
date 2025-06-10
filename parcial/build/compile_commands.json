@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/workspaces/ProyectosCodespace/parcial/build",
+  "command": "/usr/bin/clang++   -I/workspaces/ProyectosCodespace/parcial/include  -g   -o CMakeFiles/parcial.dir/main.cpp.o -c /workspaces/ProyectosCodespace/parcial/main.cpp",
+  "file": "/workspaces/ProyectosCodespace/parcial/main.cpp"
+},
+{
+  "directory": "/workspaces/ProyectosCodespace/parcial/build",
+  "command": "/usr/bin/clang++   -I/workspaces/ProyectosCodespace/parcial/include  -g   -o CMakeFiles/parcial.dir/src/clasepordefecto.cpp.o -c /workspaces/ProyectosCodespace/parcial/src/clasepordefecto.cpp",
+  "file": "/workspaces/ProyectosCodespace/parcial/src/clasepordefecto.cpp"
+}
+]

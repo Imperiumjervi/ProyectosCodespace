@@ -1,0 +1,3 @@
+/workspaces/ProyectosCodespace/parcial/build/CMakeFiles/rebuild_cache.dir
+/workspaces/ProyectosCodespace/parcial/build/CMakeFiles/edit_cache.dir
+/workspaces/ProyectosCodespace/parcial/build/CMakeFiles/parcial.dir

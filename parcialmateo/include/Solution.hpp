@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 
-class ClasePorDefecto {
+class Solution {
 public:
   void saludar();
 };

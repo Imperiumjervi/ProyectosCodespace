@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/workspaces/ProyectosCodespace/ejemplo1/build",
+  "command": "/usr/bin/clang++   -I/workspaces/ProyectosCodespace/ejemplo1/include  -g   -o CMakeFiles/ejemplo1.dir/main.cpp.o -c /workspaces/ProyectosCodespace/ejemplo1/main.cpp",
+  "file": "/workspaces/ProyectosCodespace/ejemplo1/main.cpp"
+},
+{
+  "directory": "/workspaces/ProyectosCodespace/ejemplo1/build",
+  "command": "/usr/bin/clang++   -I/workspaces/ProyectosCodespace/ejemplo1/include  -g   -o CMakeFiles/ejemplo1.dir/src/Solution.cpp.o -c /workspaces/ProyectosCodespace/ejemplo1/src/Solution.cpp",
+  "file": "/workspaces/ProyectosCodespace/ejemplo1/src/Solution.cpp"
+}
+]

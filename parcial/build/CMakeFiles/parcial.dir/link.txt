@@ -1,0 +1,1 @@
+/usr/bin/clang++  -g   CMakeFiles/parcial.dir/main.cpp.o CMakeFiles/parcial.dir/src/clasepordefecto.cpp.o  -o parcial 

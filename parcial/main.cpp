@@ -1,8 +1,7 @@
-#include "include/clasepordefecto.hpp"
+#include "include/Arma.hpp"
 #include <iostream>
 
 int main() {
-  ClasePorDefecto obj;
-  obj.saludar();
+  
   return 0;
 }
