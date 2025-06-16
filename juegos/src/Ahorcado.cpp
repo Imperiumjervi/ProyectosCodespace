@@ -13,19 +13,6 @@ Ahorcado::Ahorcado(std::string jugador, int puntuacion, std::string fecha,
   intentosRestantes = 7;
 }
 
-/*int Ahorcado::leerPuntuacion() {
-  std::ifstream archivo("puntuacion.txt");
-  if (archivo.is_open()) {
-    archivo >> puntuacion;
-    archivo.close();
-  } else {
-    std::cerr << "No se pudo abrir el archivo de puntuacion." << std::endl;
-    puntuacion =
-        0; // Si no se puede abrir el archivo, se inicializa la puntuación a 0
-  }
-  return puntuacion;
-}*/
-
 void Ahorcado::iniciar() {
   generarPalabraAleatoria();
   // leerPuntuacion();
@@ -81,7 +68,7 @@ void Ahorcado::setPalabrasDesdeArchivo(std::string rutaArchivo) {
   }
 }
 
-void Ahorcado::generarPalabraAleatoria() {
+/*void Ahorcado::generarPalabraAleatoria() {
   std::vector<std::string> palabras = {
       "ejemplo", "programacion", "juego",   "ahorcado",
       "c++",     "desarrollo",   "software"}; // Aqui se reemplaza el vector
@@ -93,6 +80,36 @@ void Ahorcado::generarPalabraAleatoria() {
                                // a la cantidad de palabras
   std::string palabra = palabras[dis(gen)];
   palabraOculta = palabra; // Se asigna la palabra aleatoria a la variable
+}*/
+
+void Ahorcado::generarPalabraAleatoria() {
+  std::ifstream archivo("palabras.txt");
+  std::vector<std::string> palabras;
+  std::string linea;
+
+  if (!archivo.is_open()) {
+    std::cerr << "no se puede abrir el archivo palabras.txt " << std::endl;
+    return;
+  }
+
+  while (std::getline(archivo, linea)) {
+    if (!linea.empty()) {
+      palabras.push_back(linea);
+    }
+  }
+
+  archivo.close();
+
+  if (palabras.empty()) {
+    std::cerr << "No se encontraron palabras en el archivo" << std::endl;
+    return;
+  }
+
+  std::random_device rd;
+  std::mt19937 gen(rd());
+  std::uniform_int_distribution<> dis(0, palabras.size() - 1);
+
+  palabraOculta = palabras[dis(gen)];
 }
 
 bool Ahorcado::adivinarLetra(char letra) {

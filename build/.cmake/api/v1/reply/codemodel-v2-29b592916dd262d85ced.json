@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "taller",
+					"jsonFile" : "directory-taller-e1cb8e0f1d301b297e25.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "taller",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "taller3",
+					"jsonFile" : "directory-taller3-c6b11d8ec2dc760e8eae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "taller3",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "ejemplo1",
+					"jsonFile" : "directory-ejemplo1-50ca85a71d5772117cdd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "ejemplo1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "juegos",
+					"jsonFile" : "directory-juegos-1890d893be1b159fd516.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "juegos",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "parcial",
+					"jsonFile" : "directory-parcial-3de269d3da8e835ab999.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "parcial",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "manejo_archivos",
+					"jsonFile" : "directory-manejo_archivos-1a0314a61d4f4f9d625d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "manejo_archivos",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MultiProject"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "taller",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "taller3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "ejemplo1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "juegos",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "parcial",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "manejo_archivos",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "ejemplo1::@68068fddcc236e4bd94d",
+					"jsonFile" : "target-ejemplo1-8f7c64b0144dd31f5f4d.json",
+					"name" : "ejemplo1",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "juegos::@9200a33c0de6485a533b",
+					"jsonFile" : "target-juegos-aa711428f06f2aecd3ff.json",
+					"name" : "juegos",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "manejo_archivos::@9bcff36c6a8ae7d08209",
+					"jsonFile" : "target-manejo_archivos-6612ad0e75478a5ccd43.json",
+					"name" : "manejo_archivos",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "parcial::@a4d713504508c21a9e70",
+					"jsonFile" : "target-parcial-16de03543ea272a163d4.json",
+					"name" : "parcial",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "taller::@5e792e433bb2ed1dbee5",
+					"jsonFile" : "target-taller-81828e10072b4cd2cc1e.json",
+					"name" : "taller",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "taller3::@d019989a3cfb292c8c8c",
+					"jsonFile" : "target-taller3-9bda0604110789045f74.json",
+					"name" : "taller3",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jeffer/Documentos/gitHub/CodespaceClases/build",
+		"source" : "/home/jeffer/Documentos/gitHub/CodespaceClases"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

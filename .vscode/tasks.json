@@ -23,7 +23,6 @@
       "problemMatcher": ["$gcc"],
       "dependsOn": "CMake: Configure"
     },
-    ///Asi se agregan mas
     {
       "label": "Build taller",
       "type": "shell",
@@ -85,18 +84,6 @@
       "group": "build",
       "problemMatcher": ["$gcc"],
       "dependsOn": "CMake: Configure"
-    },
-    {
-      "label": "Build Parcialmateo",
-      "type": "shell",
-      "command": "cmake",
-      "args": [
-        "--build", "${workspaceFolder}/build",
-        "--target", "parcialmateo"
-      ],
-      "group": "build",
-      "problemMatcher": ["$gcc"],
-      "dependsOn": "CMake: Configure"
-    },
+    }
   ]
 }

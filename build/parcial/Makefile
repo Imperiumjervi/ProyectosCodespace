@@ -154,29 +154,101 @@ main.cpp.s:
 	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f parcial/CMakeFiles/parcial.dir/build.make parcial/CMakeFiles/parcial.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/clasepordefecto.o: src/clasepordefecto.cpp.o
-.PHONY : src/clasepordefecto.o
+src/Arma.o: src/Arma.cpp.o
+.PHONY : src/Arma.o
 
 # target to build an object file
-src/clasepordefecto.cpp.o:
-	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f parcial/CMakeFiles/parcial.dir/build.make parcial/CMakeFiles/parcial.dir/src/clasepordefecto.cpp.o
-.PHONY : src/clasepordefecto.cpp.o
+src/Arma.cpp.o:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f parcial/CMakeFiles/parcial.dir/build.make parcial/CMakeFiles/parcial.dir/src/Arma.cpp.o
+.PHONY : src/Arma.cpp.o
 
-src/clasepordefecto.i: src/clasepordefecto.cpp.i
-.PHONY : src/clasepordefecto.i
+src/Arma.i: src/Arma.cpp.i
+.PHONY : src/Arma.i
 
 # target to preprocess a source file
-src/clasepordefecto.cpp.i:
-	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f parcial/CMakeFiles/parcial.dir/build.make parcial/CMakeFiles/parcial.dir/src/clasepordefecto.cpp.i
-.PHONY : src/clasepordefecto.cpp.i
+src/Arma.cpp.i:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f parcial/CMakeFiles/parcial.dir/build.make parcial/CMakeFiles/parcial.dir/src/Arma.cpp.i
+.PHONY : src/Arma.cpp.i
 
-src/clasepordefecto.s: src/clasepordefecto.cpp.s
-.PHONY : src/clasepordefecto.s
+src/Arma.s: src/Arma.cpp.s
+.PHONY : src/Arma.s
 
 # target to generate assembly for a file
-src/clasepordefecto.cpp.s:
-	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f parcial/CMakeFiles/parcial.dir/build.make parcial/CMakeFiles/parcial.dir/src/clasepordefecto.cpp.s
-.PHONY : src/clasepordefecto.cpp.s
+src/Arma.cpp.s:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f parcial/CMakeFiles/parcial.dir/build.make parcial/CMakeFiles/parcial.dir/src/Arma.cpp.s
+.PHONY : src/Arma.cpp.s
+
+src/AtaqueFuerte.o: src/AtaqueFuerte.cpp.o
+.PHONY : src/AtaqueFuerte.o
+
+# target to build an object file
+src/AtaqueFuerte.cpp.o:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f parcial/CMakeFiles/parcial.dir/build.make parcial/CMakeFiles/parcial.dir/src/AtaqueFuerte.cpp.o
+.PHONY : src/AtaqueFuerte.cpp.o
+
+src/AtaqueFuerte.i: src/AtaqueFuerte.cpp.i
+.PHONY : src/AtaqueFuerte.i
+
+# target to preprocess a source file
+src/AtaqueFuerte.cpp.i:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f parcial/CMakeFiles/parcial.dir/build.make parcial/CMakeFiles/parcial.dir/src/AtaqueFuerte.cpp.i
+.PHONY : src/AtaqueFuerte.cpp.i
+
+src/AtaqueFuerte.s: src/AtaqueFuerte.cpp.s
+.PHONY : src/AtaqueFuerte.s
+
+# target to generate assembly for a file
+src/AtaqueFuerte.cpp.s:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f parcial/CMakeFiles/parcial.dir/build.make parcial/CMakeFiles/parcial.dir/src/AtaqueFuerte.cpp.s
+.PHONY : src/AtaqueFuerte.cpp.s
+
+src/AtaqueSuave.o: src/AtaqueSuave.cpp.o
+.PHONY : src/AtaqueSuave.o
+
+# target to build an object file
+src/AtaqueSuave.cpp.o:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f parcial/CMakeFiles/parcial.dir/build.make parcial/CMakeFiles/parcial.dir/src/AtaqueSuave.cpp.o
+.PHONY : src/AtaqueSuave.cpp.o
+
+src/AtaqueSuave.i: src/AtaqueSuave.cpp.i
+.PHONY : src/AtaqueSuave.i
+
+# target to preprocess a source file
+src/AtaqueSuave.cpp.i:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f parcial/CMakeFiles/parcial.dir/build.make parcial/CMakeFiles/parcial.dir/src/AtaqueSuave.cpp.i
+.PHONY : src/AtaqueSuave.cpp.i
+
+src/AtaqueSuave.s: src/AtaqueSuave.cpp.s
+.PHONY : src/AtaqueSuave.s
+
+# target to generate assembly for a file
+src/AtaqueSuave.cpp.s:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f parcial/CMakeFiles/parcial.dir/build.make parcial/CMakeFiles/parcial.dir/src/AtaqueSuave.cpp.s
+.PHONY : src/AtaqueSuave.cpp.s
+
+src/Nave.o: src/Nave.cpp.o
+.PHONY : src/Nave.o
+
+# target to build an object file
+src/Nave.cpp.o:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f parcial/CMakeFiles/parcial.dir/build.make parcial/CMakeFiles/parcial.dir/src/Nave.cpp.o
+.PHONY : src/Nave.cpp.o
+
+src/Nave.i: src/Nave.cpp.i
+.PHONY : src/Nave.i
+
+# target to preprocess a source file
+src/Nave.cpp.i:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f parcial/CMakeFiles/parcial.dir/build.make parcial/CMakeFiles/parcial.dir/src/Nave.cpp.i
+.PHONY : src/Nave.cpp.i
+
+src/Nave.s: src/Nave.cpp.s
+.PHONY : src/Nave.s
+
+# target to generate assembly for a file
+src/Nave.cpp.s:
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build && $(MAKE) $(MAKESILENT) -f parcial/CMakeFiles/parcial.dir/build.make parcial/CMakeFiles/parcial.dir/src/Nave.cpp.s
+.PHONY : src/Nave.cpp.s
 
 # Help Target
 help:
@@ -190,9 +262,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/clasepordefecto.o"
-	@echo "... src/clasepordefecto.i"
-	@echo "... src/clasepordefecto.s"
+	@echo "... src/Arma.o"
+	@echo "... src/Arma.i"
+	@echo "... src/Arma.s"
+	@echo "... src/AtaqueFuerte.o"
+	@echo "... src/AtaqueFuerte.i"
+	@echo "... src/AtaqueFuerte.s"
+	@echo "... src/AtaqueSuave.o"
+	@echo "... src/AtaqueSuave.i"
+	@echo "... src/AtaqueSuave.s"
+	@echo "... src/Nave.o"
+	@echo "... src/Nave.i"
+	@echo "... src/Nave.s"
 .PHONY : help
 
 

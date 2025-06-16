@@ -86,34 +86,82 @@ parcial/CMakeFiles/parcial.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/parcial.dir/main.cpp.s"
 	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/parcial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeffer/Documentos/gitHub/CodespaceClases/parcial/main.cpp -o CMakeFiles/parcial.dir/main.cpp.s
 
-parcial/CMakeFiles/parcial.dir/src/clasepordefecto.cpp.o: parcial/CMakeFiles/parcial.dir/flags.make
-parcial/CMakeFiles/parcial.dir/src/clasepordefecto.cpp.o: /home/jeffer/Documentos/gitHub/CodespaceClases/parcial/src/clasepordefecto.cpp
-parcial/CMakeFiles/parcial.dir/src/clasepordefecto.cpp.o: parcial/CMakeFiles/parcial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object parcial/CMakeFiles/parcial.dir/src/clasepordefecto.cpp.o"
-	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/parcial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT parcial/CMakeFiles/parcial.dir/src/clasepordefecto.cpp.o -MF CMakeFiles/parcial.dir/src/clasepordefecto.cpp.o.d -o CMakeFiles/parcial.dir/src/clasepordefecto.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/parcial/src/clasepordefecto.cpp
+parcial/CMakeFiles/parcial.dir/src/Arma.cpp.o: parcial/CMakeFiles/parcial.dir/flags.make
+parcial/CMakeFiles/parcial.dir/src/Arma.cpp.o: /home/jeffer/Documentos/gitHub/CodespaceClases/parcial/src/Arma.cpp
+parcial/CMakeFiles/parcial.dir/src/Arma.cpp.o: parcial/CMakeFiles/parcial.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object parcial/CMakeFiles/parcial.dir/src/Arma.cpp.o"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/parcial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT parcial/CMakeFiles/parcial.dir/src/Arma.cpp.o -MF CMakeFiles/parcial.dir/src/Arma.cpp.o.d -o CMakeFiles/parcial.dir/src/Arma.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/parcial/src/Arma.cpp
 
-parcial/CMakeFiles/parcial.dir/src/clasepordefecto.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/parcial.dir/src/clasepordefecto.cpp.i"
-	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/parcial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeffer/Documentos/gitHub/CodespaceClases/parcial/src/clasepordefecto.cpp > CMakeFiles/parcial.dir/src/clasepordefecto.cpp.i
+parcial/CMakeFiles/parcial.dir/src/Arma.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/parcial.dir/src/Arma.cpp.i"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/parcial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeffer/Documentos/gitHub/CodespaceClases/parcial/src/Arma.cpp > CMakeFiles/parcial.dir/src/Arma.cpp.i
 
-parcial/CMakeFiles/parcial.dir/src/clasepordefecto.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/parcial.dir/src/clasepordefecto.cpp.s"
-	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/parcial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeffer/Documentos/gitHub/CodespaceClases/parcial/src/clasepordefecto.cpp -o CMakeFiles/parcial.dir/src/clasepordefecto.cpp.s
+parcial/CMakeFiles/parcial.dir/src/Arma.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/parcial.dir/src/Arma.cpp.s"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/parcial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeffer/Documentos/gitHub/CodespaceClases/parcial/src/Arma.cpp -o CMakeFiles/parcial.dir/src/Arma.cpp.s
+
+parcial/CMakeFiles/parcial.dir/src/AtaqueFuerte.cpp.o: parcial/CMakeFiles/parcial.dir/flags.make
+parcial/CMakeFiles/parcial.dir/src/AtaqueFuerte.cpp.o: /home/jeffer/Documentos/gitHub/CodespaceClases/parcial/src/AtaqueFuerte.cpp
+parcial/CMakeFiles/parcial.dir/src/AtaqueFuerte.cpp.o: parcial/CMakeFiles/parcial.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object parcial/CMakeFiles/parcial.dir/src/AtaqueFuerte.cpp.o"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/parcial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT parcial/CMakeFiles/parcial.dir/src/AtaqueFuerte.cpp.o -MF CMakeFiles/parcial.dir/src/AtaqueFuerte.cpp.o.d -o CMakeFiles/parcial.dir/src/AtaqueFuerte.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/parcial/src/AtaqueFuerte.cpp
+
+parcial/CMakeFiles/parcial.dir/src/AtaqueFuerte.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/parcial.dir/src/AtaqueFuerte.cpp.i"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/parcial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeffer/Documentos/gitHub/CodespaceClases/parcial/src/AtaqueFuerte.cpp > CMakeFiles/parcial.dir/src/AtaqueFuerte.cpp.i
+
+parcial/CMakeFiles/parcial.dir/src/AtaqueFuerte.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/parcial.dir/src/AtaqueFuerte.cpp.s"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/parcial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeffer/Documentos/gitHub/CodespaceClases/parcial/src/AtaqueFuerte.cpp -o CMakeFiles/parcial.dir/src/AtaqueFuerte.cpp.s
+
+parcial/CMakeFiles/parcial.dir/src/AtaqueSuave.cpp.o: parcial/CMakeFiles/parcial.dir/flags.make
+parcial/CMakeFiles/parcial.dir/src/AtaqueSuave.cpp.o: /home/jeffer/Documentos/gitHub/CodespaceClases/parcial/src/AtaqueSuave.cpp
+parcial/CMakeFiles/parcial.dir/src/AtaqueSuave.cpp.o: parcial/CMakeFiles/parcial.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object parcial/CMakeFiles/parcial.dir/src/AtaqueSuave.cpp.o"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/parcial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT parcial/CMakeFiles/parcial.dir/src/AtaqueSuave.cpp.o -MF CMakeFiles/parcial.dir/src/AtaqueSuave.cpp.o.d -o CMakeFiles/parcial.dir/src/AtaqueSuave.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/parcial/src/AtaqueSuave.cpp
+
+parcial/CMakeFiles/parcial.dir/src/AtaqueSuave.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/parcial.dir/src/AtaqueSuave.cpp.i"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/parcial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeffer/Documentos/gitHub/CodespaceClases/parcial/src/AtaqueSuave.cpp > CMakeFiles/parcial.dir/src/AtaqueSuave.cpp.i
+
+parcial/CMakeFiles/parcial.dir/src/AtaqueSuave.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/parcial.dir/src/AtaqueSuave.cpp.s"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/parcial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeffer/Documentos/gitHub/CodespaceClases/parcial/src/AtaqueSuave.cpp -o CMakeFiles/parcial.dir/src/AtaqueSuave.cpp.s
+
+parcial/CMakeFiles/parcial.dir/src/Nave.cpp.o: parcial/CMakeFiles/parcial.dir/flags.make
+parcial/CMakeFiles/parcial.dir/src/Nave.cpp.o: /home/jeffer/Documentos/gitHub/CodespaceClases/parcial/src/Nave.cpp
+parcial/CMakeFiles/parcial.dir/src/Nave.cpp.o: parcial/CMakeFiles/parcial.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object parcial/CMakeFiles/parcial.dir/src/Nave.cpp.o"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/parcial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT parcial/CMakeFiles/parcial.dir/src/Nave.cpp.o -MF CMakeFiles/parcial.dir/src/Nave.cpp.o.d -o CMakeFiles/parcial.dir/src/Nave.cpp.o -c /home/jeffer/Documentos/gitHub/CodespaceClases/parcial/src/Nave.cpp
+
+parcial/CMakeFiles/parcial.dir/src/Nave.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/parcial.dir/src/Nave.cpp.i"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/parcial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeffer/Documentos/gitHub/CodespaceClases/parcial/src/Nave.cpp > CMakeFiles/parcial.dir/src/Nave.cpp.i
+
+parcial/CMakeFiles/parcial.dir/src/Nave.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/parcial.dir/src/Nave.cpp.s"
+	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/parcial && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeffer/Documentos/gitHub/CodespaceClases/parcial/src/Nave.cpp -o CMakeFiles/parcial.dir/src/Nave.cpp.s
 
 # Object files for target parcial
 parcial_OBJECTS = \
 "CMakeFiles/parcial.dir/main.cpp.o" \
-"CMakeFiles/parcial.dir/src/clasepordefecto.cpp.o"
+"CMakeFiles/parcial.dir/src/Arma.cpp.o" \
+"CMakeFiles/parcial.dir/src/AtaqueFuerte.cpp.o" \
+"CMakeFiles/parcial.dir/src/AtaqueSuave.cpp.o" \
+"CMakeFiles/parcial.dir/src/Nave.cpp.o"
 
 # External object files for target parcial
 parcial_EXTERNAL_OBJECTS =
 
 bin/parcial: parcial/CMakeFiles/parcial.dir/main.cpp.o
-bin/parcial: parcial/CMakeFiles/parcial.dir/src/clasepordefecto.cpp.o
+bin/parcial: parcial/CMakeFiles/parcial.dir/src/Arma.cpp.o
+bin/parcial: parcial/CMakeFiles/parcial.dir/src/AtaqueFuerte.cpp.o
+bin/parcial: parcial/CMakeFiles/parcial.dir/src/AtaqueSuave.cpp.o
+bin/parcial: parcial/CMakeFiles/parcial.dir/src/Nave.cpp.o
 bin/parcial: parcial/CMakeFiles/parcial.dir/build.make
 bin/parcial: parcial/CMakeFiles/parcial.dir/compiler_depend.ts
 bin/parcial: parcial/CMakeFiles/parcial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/parcial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jeffer/Documentos/gitHub/CodespaceClases/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../bin/parcial"
 	cd /home/jeffer/Documentos/gitHub/CodespaceClases/build/parcial && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/parcial.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

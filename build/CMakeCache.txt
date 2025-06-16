@@ -261,6 +261,15 @@ parcial_IS_TOP_LEVEL:STATIC=OFF
 parcial_SOURCE_DIR:STATIC=/home/jeffer/Documentos/gitHub/CodespaceClases/parcial
 
 //Value Computed by CMake
+parcialmateo_BINARY_DIR:STATIC=/home/jeffer/Documentos/gitHub/CodespaceClases/build/parcialmateo
+
+//Value Computed by CMake
+parcialmateo_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+parcialmateo_SOURCE_DIR:STATIC=/home/jeffer/Documentos/gitHub/CodespaceClases/parcialmateo
+
+//Value Computed by CMake
 taller3_BINARY_DIR:STATIC=/home/jeffer/Documentos/gitHub/CodespaceClases/build/taller3
 
 //Value Computed by CMake
