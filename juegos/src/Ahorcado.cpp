@@ -13,9 +13,8 @@ Ahorcado::Ahorcado(std::string jugador, int puntuacion, std::string fecha,
   intentosRestantes = 7;
 }
 
-void Ahorcado::iniciar() {
+/*void Ahorcado::iniciar() {
   generarPalabraAleatoria();
-  // leerPuntuacion();
   palabraAdivinada = std::string(palabraOculta.length(), '_');
   std::cout << "Bienvenido al juego del Ahorcado!" << std::endl;
   std::cout << "Palabra a adivinar: " << palabraAdivinada << std::endl;
@@ -43,6 +42,56 @@ void Ahorcado::iniciar() {
     std::cout << "Perdiste, la palabra era: " << palabraOculta << std::endl;
     guardarResultado("P");
   }
+}*/
+
+void Ahorcado::iniciar() {
+  generarPalabraAleatoria();
+  palabraAdivinada = std::string(palabraOculta.length(), '_');
+
+  while (intentosRestantes > 0 && palabraAdivinada != palabraOculta) {
+#ifdef _WIN32
+    std::system("cls");
+#else
+    std::system("clear");
+#endif
+
+    std::cout << "Bienvenido al juego del Ahorcado!" << std::endl;
+    dibujarAhorcado();
+
+    std::cout << "Intentos restantes: " << intentosRestantes << std::endl;
+    std::cout << "Palabra: " << palabraAdivinada << std::endl;
+
+    char letra;
+    std::cout << "Ingrese una letra: ";
+    std::cin >> letra;
+
+    if (adivinarLetra(letra)) {
+      std::cout << "¡Bien hecho!" << std::endl;
+    } else {
+      std::cout << "Fallaste." << std::endl;
+    }
+
+    std::cout << "\nPresiona Enter para continuar...";
+    std::cin.get();
+    std::cin.get(); // Espera Enter
+  }
+
+#ifdef _WIN32
+  std::system("cls");
+#else
+  std::system("clear");
+#endif
+
+  dibujarAhorcado();
+
+  if (palabraAdivinada == palabraOculta) {
+    std::cout << "¡Ganaste rey/ina!\n";
+    guardarResultado("G");
+    puntuacion += 10;
+  } else {
+    std::cout << "Perdiste, la palabra era: " << palabraOculta << "\n";
+    guardarResultado("P");
+  }
 }
 
 void Ahorcado::setPalabrasDesdeArchivo(std::string rutaArchivo) {
@@ -67,20 +116,6 @@ void Ahorcado::setPalabrasDesdeArchivo(std::string rutaArchivo) {
     }
   }
 }
-
-/*void Ahorcado::generarPalabraAleatoria() {
-  std::vector<std::string> palabras = {
-      "ejemplo", "programacion", "juego",   "ahorcado",
-      "c++",     "desarrollo",   "software"}; // Aqui se reemplaza el vector
-  std::random_device
-      rd; // Se usa la libreria <random> para generar un numero aleatorio
-  std::mt19937 gen(rd());
-  std::uniform_int_distribution<> dis(
-      0, palabras.size() - 1); // Aqui se reemplaza el numero por el equivalete
-                               // a la cantidad de palabras
-  std::string palabra = palabras[dis(gen)];
-  palabraOculta = palabra; // Se asigna la palabra aleatoria a la variable
-}*/
 
 void Ahorcado::generarPalabraAleatoria() {
   std::ifstream archivo("palabras.txt");
@@ -123,4 +158,36 @@ bool Ahorcado::adivinarLetra(char letra) {
   if (!acierto)
     intentosRestantes--;
   return acierto;
+}
+
+void Ahorcado::dibujarCabeza() { std::cout << "  O" << std::endl; }
+
+void Ahorcado::dibujarCuerpo() { std::cout << "  |" << std::endl; }
+
+void Ahorcado::dibujarBrazos() { std::cout << " /|\\ " << std::endl; }
+
+void Ahorcado::dibujarPiernas() { std::cout << " / \\" << std::endl; }
+
+void Ahorcado::dibujarAhorcado() {
+  std::cout << "_______" << std::endl;
+  std::cout << "|     |" << std::endl;
+
+  int parte = 7 - intentosRestantes;
+  if (parte >= 1)
+    dibujarCabeza();
+  else
+    std::cout << std::endl;
+  if (parte >= 2)
+    dibujarCuerpo();
+  else
+    std::cout << std::endl;
+  if (parte >= 3)
+    dibujarBrazos();
+  else
+    std::cout << std::endl;
+  if (parte >= 4)
+    dibujarPiernas();
+  else
+    std::cout << std::endl;
+  std::cout << "=========" << std::endl;
 }
