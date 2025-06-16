@@ -1,7 +1,6 @@
-ejemplo
-programacion
+musica
+murcielago
 juego
-ahorcado
-c++
-desarrollo
-software
+programacion
+poo
+come
