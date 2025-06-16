@@ -104,11 +104,7 @@ juegos/CMakeFiles/juegos.dir/src/Juego.cpp.o: \
  /usr/include/c++/15.1.1/cstddef \
  /usr/include/c++/15.1.1/bits/uses_allocator.h \
  /usr/include/c++/15.1.1/bits/uses_allocator_args.h \
- /usr/include/c++/15.1.1/tuple /usr/include/c++/15.1.1/vector \
- /usr/include/c++/15.1.1/bits/stl_uninitialized.h \
- /usr/include/c++/15.1.1/bits/stl_vector.h \
- /usr/include/c++/15.1.1/bits/stl_bvector.h \
- /usr/include/c++/15.1.1/bits/vector.tcc /usr/include/c++/15.1.1/ctime \
+ /usr/include/c++/15.1.1/tuple /usr/include/c++/15.1.1/ctime \
  /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
  /usr/include/bits/types/struct_tm.h \
  /usr/include/bits/types/struct_itimerspec.h \

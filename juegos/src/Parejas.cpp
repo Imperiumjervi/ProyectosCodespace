@@ -1,5 +1,6 @@
 #include "Parejas.hpp"
 #include "Juego.hpp"
+#include <cstdlib>
 #include <fstream>
 #include <iostream>
 #include <random>
@@ -16,9 +17,15 @@ void Parejas::iniciar() {
   int totalParejas = (filas * columnas) / 2;
 
   while (parejasEncontradas < totalParejas) {
+#ifdef _WIN32
+    std::system("cls");
+#else
+    std::system("clear");
+#endif
+
     mostrarTablero(descubiertas);
     int pos1, pos2;
-    std::cout << "Ingresa las Coordenadas de dos casillas (pos1 pos2): ";
+    std::cout << "Ingresa dos posiciones (pos1 pos2): ";
     std::cin >> pos1 >> pos2;
 
     int x1 = pos1 / columnas;
@@ -27,27 +34,43 @@ void Parejas::iniciar() {
     int y2 = pos2 % columnas;
 
     if (x1 == x2 && y1 == y2) {
-      std::cout << "No puedes elegir la misma casilla dos veces" << std::endl;
+      std::cout << "No puedes elegir la misma casilla dos veces\n";
+      std::cin.get();
+      std::cin.get();
       continue;
     }
 
     if (descubiertas[x1][y1] || descubiertas[x2][y2]) {
-      std::cout << "Ya descubriste una de esas casillas " << std::endl;
+      std::cout << "Ya descubriste una de esas casillas\n";
+      std::cin.get();
+      std::cin.get();
       continue;
     }
 
-    std::cout << "primera casilla: " << tablero[x1][y1] << std::endl;
-    std::cout << "segunda casilla: " << tablero[x2][y2] << std::endl;
-
+// Mostrar el tablero con las dos seleccionadas visibles
+#ifdef _WIN32
+    std::system("cls");
+#else
+    std::system("clear");
+#endif
+    mostrarTableroConSelecion(descubiertas, pos1, pos2);
     if (descubrirCasilla(pos1, pos2)) {
       descubiertas[x1][y1] = true;
       descubiertas[x2][y2] = true;
     }
 
-    // system("clear"); --> Tiene que ir para que limpie
+    std::cout << "\nPresiona Enter para continuar...";
+    std::cin.get();
+    std::cin.get();
   }
 
-  std::cout << "Felicidades, encontraste todas las parejas!" << std::endl;
+#ifdef _WIN32
+  std::system("cls");
+#else
+  std::system("clear");
+#endif
+  mostrarTablero(descubiertas);
+  std::cout << "¡Felicidades, encontraste todas las parejas!\n";
   guardarResultado("G");
 }
 
@@ -62,6 +85,31 @@ void Parejas::mostrarTablero(const bool descubiertas[4][4]) {
     std::cout << i << ": ";
     for (int j = 0; j < columnas; ++j) {
       if (descubiertas[i][j]) {
+        std::cout << tablero[i][j] << " ";
+      } else {
+        std::cout << "* ";
+      }
+    }
+    std::cout << "\n";
+  }
+}
+
+void Parejas::mostrarTableroConSelecion(bool descubiertas[4][4], int pos1,
+                                        int pos2) {
+  int x1 = pos1 / columnas;
+  int y1 = pos1 % columnas;
+  int x2 = pos2 / columnas;
+  int y2 = pos2 % columnas;
+
+  std::cout << "   ";
+  for (int j = 0; j < columnas; ++j)
+    std::cout << j << " ";
+  std::cout << "\n";
+
+  for (int i = 0; i < filas; ++i) {
+    std::cout << i << ": ";
+    for (int j = 0; j < columnas; ++j) {
+      if (descubiertas[i][j] || (i == x1 && j == y1) || (i == x2 && j == y2)) {
         std::cout << tablero[i][j] << " ";
       } else {
         std::cout << "* ";

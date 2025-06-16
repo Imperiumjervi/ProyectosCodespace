@@ -17,4 +17,5 @@ public:
   void cargarSimbolosDesdeArchivo(const std::string &rutaArchivo);
   void mostrarTablero(const bool descubiertas[4][4]);
   bool descubrirCasilla(int pos1, int pos2);
+  void mostrarTableroConSelecion(bool descubiertas[4][4], int pos1, int pos2);
 };

@@ -105,11 +105,7 @@ juegos/CMakeFiles/juegos.dir/src/Ahorcado.cpp.o: \
  /usr/include/c++/15.1.1/cstddef \
  /usr/include/c++/15.1.1/bits/uses_allocator.h \
  /usr/include/c++/15.1.1/bits/uses_allocator_args.h \
- /usr/include/c++/15.1.1/tuple /usr/include/c++/15.1.1/vector \
- /usr/include/c++/15.1.1/bits/stl_uninitialized.h \
- /usr/include/c++/15.1.1/bits/stl_vector.h \
- /usr/include/c++/15.1.1/bits/stl_bvector.h \
- /usr/include/c++/15.1.1/bits/vector.tcc /usr/include/c++/15.1.1/fstream \
+ /usr/include/c++/15.1.1/tuple /usr/include/c++/15.1.1/fstream \
  /usr/include/c++/15.1.1/istream /usr/include/c++/15.1.1/ios \
  /usr/include/c++/15.1.1/exception \
  /usr/include/c++/15.1.1/bits/exception_ptr.h \
@@ -181,6 +177,11 @@ juegos/CMakeFiles/juegos.dir/src/Ahorcado.cpp.o: \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h /usr/include/c++/15.1.1/bits/random.h \
+ /usr/include/c++/15.1.1/vector \
+ /usr/include/c++/15.1.1/bits/stl_uninitialized.h \
+ /usr/include/c++/15.1.1/bits/stl_vector.h \
+ /usr/include/c++/15.1.1/bits/stl_bvector.h \
+ /usr/include/c++/15.1.1/bits/vector.tcc \
  /usr/include/c++/15.1.1/bits/uniform_int_dist.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/opt_random.h \
  /usr/include/c++/15.1.1/bits/random.tcc /usr/include/c++/15.1.1/numeric \
