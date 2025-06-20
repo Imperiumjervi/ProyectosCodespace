@@ -1,0 +1,96 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/manejo_archivos"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"manejo_archivos/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/jeffer/Documentos/gitHub/CodespaceClases/manejo_archivos/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"id" : "manejo_archivos::@9bcff36c6a8ae7d08209",
+	"link" : 
+	{
+		"language" : "CXX"
+	},
+	"name" : "manejo_archivos",
+	"nameOnDisk" : "manejo_archivos",
+	"paths" : 
+	{
+		"build" : "manejo_archivos",
+		"source" : "manejo_archivos"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "manejo_archivos/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "manejo_archivos/src/Solution.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

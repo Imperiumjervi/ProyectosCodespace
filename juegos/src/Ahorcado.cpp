@@ -13,37 +13,6 @@ Ahorcado::Ahorcado(std::string jugador, int puntuacion, std::string fecha,
   intentosRestantes = 7;
 }
 
-/*void Ahorcado::iniciar() {
-  generarPalabraAleatoria();
-  palabraAdivinada = std::string(palabraOculta.length(), '_');
-  std::cout << "Bienvenido al juego del Ahorcado!" << std::endl;
-  std::cout << "Palabra a adivinar: " << palabraAdivinada << std::endl;
-
-  while (intentosRestantes > 0 && palabraAdivinada != palabraOculta) {
-    char letra;
-    std::cout << "Ingrese una letra: ";
-    std::cin >> letra;
-
-    if (adivinarLetra(letra)) {
-      std::cout << "Vas bien" << std::endl;
-    } else {
-      std::cout << "fallaste, te quedan " << intentosRestantes << " intentos"
-                << std::endl;
-    }
-
-    std::cout << "Palabra: " << palabraAdivinada << std::endl;
-  }
-
-  if (palabraAdivinada == palabraOculta) {
-    std::cout << "Ganaste rey/ina" << std::endl;
-    guardarResultado("G");
-    puntuacion += 10; // Se suma 10 puntos al puntaje
-  } else {
-    std::cout << "Perdiste, la palabra era: " << palabraOculta << std::endl;
-    guardarResultado("P");
-  }
-}*/
-
 void Ahorcado::iniciar() {
   generarPalabraAleatoria();
   palabraAdivinada = std::string(palabraOculta.length(), '_');
