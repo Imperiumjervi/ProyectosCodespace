@@ -180,3 +180,13 @@ bool Parejas::descubrirCasilla(int pos1, int pos2) {
   }
   return false;
 }
+
+void Parejas::setFilas(int filas) { this->filas = filas; }
+void Parejas::setColumnas(int columnas) { this->columnas = columnas; }
+void Parejas::setParejasEncontradas(int parejasEncontradas) {
+  this->parejasEncontradas = parejasEncontradas;
+}
+
+int Parejas::getFilas() { return filas; }
+int Parejas::getColumnas() { return columnas; }
+int Parejas::getParejasEncontradas() { return parejasEncontradas; }

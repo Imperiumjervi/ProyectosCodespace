@@ -3,12 +3,13 @@
 // Clase padre que tendra ahorcado y concentrese (Juego de juntar parejas)
 
 class Juego {
-public:
+protected:
   std::string nombreJuego;
   std::string jugador;
   std::string fecha;
   int puntuacion;
 
+public:
   Juego(std::string jugador, int puntuacion, std::string fecha);
   virtual ~Juego();
 

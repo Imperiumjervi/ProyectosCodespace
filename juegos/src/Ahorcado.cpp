@@ -160,3 +160,18 @@ void Ahorcado::dibujarAhorcado() {
     std::cout << std::endl;
   std::cout << "=========" << std::endl;
 }
+
+void Ahorcado::setPalabraOculta(std::string &palabra) {
+  palabraOculta = palabra;
+}
+void Ahorcado::setPalabraAdivinada(std::string &palabra) {
+  palabraAdivinada = palabra;
+}
+void Ahorcado::setEsCPU(bool esCPU) { this->esCPU = esCPU; }
+void Ahorcado::setJugadorGenerador(std::string &jugadorGenerador) {
+  this->jugadorGenerador = jugadorGenerador;
+}
+std::string Ahorcado::getPalabraOculta() { return palabraOculta; }
+std::string Ahorcado::getPalabraAdivinada() { return palabraAdivinada; }
+bool Ahorcado::getEsCPU() { return esCPU; }
+std::string Ahorcado::getJugadorGenerador() { return jugadorGenerador; }
