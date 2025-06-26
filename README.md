@@ -17,3 +17,9 @@ Aqui trabajare en las clases de mateo
 
 ## Pistas de mateo
 Cada que falle, habra una funcion que se encargue de dibujar el ahorcado
+
+
+
+## Nota final: 4,1 
+
+Si se logro mi gente :D
